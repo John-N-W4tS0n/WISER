@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site</title>
+    <title>Tech Blog of WISER: World of Informed Security Engagement &amp; Resilience</title>
     <link>https://john-n-w4ts0n.github.io/WISER/</link>
-    <description>Recent content on My New Hugo Site</description>
+    <description>Recent content on Tech Blog of WISER: World of Informed Security Engagement &amp; Resilience</description>
     <generator>Hugo</generator>
-    <language>en-us</language>
+    <language>ja-jp</language>
     <lastBuildDate>Wed, 14 May 2025 17:34:44 +0900</lastBuildDate>
     <atom:link href="https://john-n-w4ts0n.github.io/WISER/index.xml" rel="self" type="application/rss+xml" />
     <item>
