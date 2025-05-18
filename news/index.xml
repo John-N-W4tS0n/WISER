@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cyber Security News on Tech Blog : WISER</title>
-    <link>https://john-n-w4ts0n.github.io/WISER/news/</link>
+    <link>https://www.wiser-blog.com//WISER/news/</link>
     <description>Recent content in Cyber Security News on Tech Blog : WISER</description>
     <generator>Hugo</generator>
     <language>ja-jp</language>
     <lastBuildDate></lastBuildDate>
-    <atom:link href="https://john-n-w4ts0n.github.io/WISER/news/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.wiser-blog.com//WISER/news/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
