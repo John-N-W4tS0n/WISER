@@ -6,8 +6,15 @@
     <description>Recent content in Security News on Tech Blog : WISER</description>
     <generator>Hugo</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Wed, 21 May 2025 12:29:55 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 21 May 2025 17:34:41 +0000</lastBuildDate>
     <atom:link href="https://www.wiser-blog.com/news/security-news/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Git Test</title>
+      <link>https://www.wiser-blog.com/news/security-news/git-test/</link>
+      <pubDate>Wed, 21 May 2025 17:34:41 +0000</pubDate>
+      <guid>https://www.wiser-blog.com/news/security-news/git-test/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Test News</title>
       <link>https://www.wiser-blog.com/news/security-news/test-news/</link>
