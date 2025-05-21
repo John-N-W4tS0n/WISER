@@ -6,8 +6,15 @@
     <description>Recent content in Security News on Tech Blog : WISER</description>
     <generator>Hugo</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Mon, 19 May 2025 00:05:17 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 21 May 2025 12:29:55 +0000</lastBuildDate>
     <atom:link href="https://www.wiser-blog.com/news/security-news/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Test News</title>
+      <link>https://www.wiser-blog.com/news/security-news/test-news/</link>
+      <pubDate>Wed, 21 May 2025 12:29:55 +0000</pubDate>
+      <guid>https://www.wiser-blog.com/news/security-news/test-news/</guid>
+      <description></description>
+    </item>
     <item>
       <title>サイバーセキュリティ専門の人材育成に新システム（ABEMA TIMES） - Yahoo!ニュース</title>
       <link>https://www.wiser-blog.com/news/security-news/security-news_20250519000516/</link>

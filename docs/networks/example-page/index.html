@@ -136,12 +136,21 @@
                     
                 
                     
-                        
-                        <li class="">
-                            <a class="sidebar-root-link" href="https://www.wiser-blog.com/docs/other/">
-                                
+                    
+                        <li class="sidebar-dropdown no-icon ">
+                            <button class="btn">
                                 Other
-                            </a>
+                            </button>
+                            <div class="sidebar-submenu ">
+                                <ul>
+                                    
+                                        
+                                        
+                                            <li class=" no-icon"><a class="sidebar-nested-link" href="https://www.wiser-blog.com/docs/other/example-page/">Example Page</a></li>
+                                        
+                                    
+                                </ul>
+                            </div>
                         </li>
                     
                 
@@ -337,6 +346,16 @@
 <div id="doc-nav" class="d-print-none">
 
 	<div class="row flex-xl-nowrap flex-row-reverse">
+	<div class="col-sm-6 pt-2 doc-prev">
+		<a class="ms-auto" href="/docs/other/example-page/">
+			<div class="card h-100 my-1 text-end">
+				<div class="card-body py-2">
+                    <p class="card-title fs-5 fw-semibold lh-base mb-0">Example Page <i class="material-icons align-middle">navigate_next</i></p>
+					
+				</div>
+			</div>
+		</a>
+        </div>
 	</div>
 </div></div>
                                         </div>
@@ -553,6 +572,13 @@
     
     
     
+    
+    
+    
+    
+    
+    
+    
 
 
     
@@ -629,6 +655,15 @@
                 title: "Example Page",
                 description: "This is a test!",
                 content: "Create New Content linkNavigate to the root of your Hugo project and use the hugo new command to create a file in the content/docs directory:\nhugo new docs/examplepage.md "
+            }
+        );
+    index.add(
+            {
+                id:  8 ,
+                href: "\/docs\/other\/example-page\/",
+                title: "Example Page",
+                description: "",
+                content: ""
             }
         );
     search.addEventListener('input', show_results, true);

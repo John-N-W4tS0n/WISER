@@ -29,9 +29,16 @@
     <loc>https://www.wiser-blog.com/docs/poc/</loc>
   </url><url>
     <loc>https://www.wiser-blog.com/docs/other/</loc>
+    <lastmod>2025-05-21T20:09:19+09:00</lastmod>
   </url><url>
     <loc>https://www.wiser-blog.com/docs/networks/example-page/</loc>
     <lastmod>2025-05-14T17:34:44+09:00</lastmod>
+  </url><url>
+    <loc>https://www.wiser-blog.com/docs/other/example-page/</loc>
+    <lastmod>2025-05-21T20:09:19+09:00</lastmod>
+  </url><url>
+    <loc>https://www.wiser-blog.com/news/security-news/test-news/</loc>
+    <lastmod>2025-05-21T12:29:55+00:00</lastmod>
   </url><url>
     <loc>https://www.wiser-blog.com/news/vulnerability-news/vuln-news_20250519000601/</loc>
     <lastmod>2025-05-19T00:06:01+09:00</lastmod>
