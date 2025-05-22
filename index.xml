@@ -6,7 +6,7 @@
     <description>Recent content in Welcome to WISER ! on Tech Blog : WISER</description>
     <generator>Hugo</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Thu, 22 May 2025 16:48:08 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 21 May 2025 22:29:37 +0900</lastBuildDate>
     <atom:link href="https://www.wiser-blog.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Example Page</title>
@@ -16,31 +16,24 @@
       <description>&lt;h2 id=&#34;create-new-content&#34;&gt;Create New Content &lt;a href=&#34;#create-new-content&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;&lt;i class=&#34;material-icons align-middle&#34;&gt;link&lt;/i&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Navigate to the root of your Hugo project and use the &lt;code&gt;hugo new&lt;/code&gt; command to create a file in the &lt;code&gt;content/docs&lt;/code&gt; directory:&lt;/p&gt;&#xA;&#xA;&#xA;    &#xA;    &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo new docs/examplepage.md&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
     <item>
+      <title>Test</title>
+      <link>https://www.wiser-blog.com/docs/programming/test/</link>
+      <pubDate>Wed, 21 May 2025 22:29:37 +0900</pubDate>
+      <guid>https://www.wiser-blog.com/docs/programming/test/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Test</title>
+      <link>https://www.wiser-blog.com/docs/poc/test/</link>
+      <pubDate>Wed, 21 May 2025 22:04:45 +0900</pubDate>
+      <guid>https://www.wiser-blog.com/docs/poc/test/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Example Page</title>
       <link>https://www.wiser-blog.com/docs/other/example-page/</link>
       <pubDate>Wed, 21 May 2025 20:09:19 +0900</pubDate>
       <guid>https://www.wiser-blog.com/docs/other/example-page/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Git Test2</title>
-      <link>https://www.wiser-blog.com/news/security-news/git-test2/</link>
-      <pubDate>Thu, 22 May 2025 16:48:08 +0000</pubDate>
-      <guid>https://www.wiser-blog.com/news/security-news/git-test2/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Git Test</title>
-      <link>https://www.wiser-blog.com/news/security-news/git-test/</link>
-      <pubDate>Wed, 21 May 2025 17:34:41 +0000</pubDate>
-      <guid>https://www.wiser-blog.com/news/security-news/git-test/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Test News</title>
-      <link>https://www.wiser-blog.com/news/security-news/test-news/</link>
-      <pubDate>Wed, 21 May 2025 12:29:55 +0000</pubDate>
-      <guid>https://www.wiser-blog.com/news/security-news/test-news/</guid>
       <description></description>
     </item>
     <item>
