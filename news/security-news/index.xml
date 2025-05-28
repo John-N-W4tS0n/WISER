@@ -2,11 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Security News on Tech Blog : WISER</title>
-    <link>http://localhost:1313/news/security-news/</link>
+    <link>https://www.wiser-blog.com/news/security-news/</link>
     <description>Recent content in Security News on Tech Blog : WISER</description>
     <generator>Hugo</generator>
     <language>ja-jp</language>
-    <lastBuildDate></lastBuildDate>
-    <atom:link href="http://localhost:1313/news/security-news/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 29 May 2025 02:39:41 +0900</lastBuildDate>
+    <atom:link href="https://www.wiser-blog.com/news/security-news/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>test</title>
+      <link>https://www.wiser-blog.com/news/security-news/security-news_20250529023941/</link>
+      <pubDate>Thu, 29 May 2025 02:39:41 +0900</pubDate>
+      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250529023941/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>test</title>
+      <link>https://www.wiser-blog.com/news/security-news/security-news_20250529022137/</link>
+      <pubDate>Thu, 29 May 2025 02:21:37 +0900</pubDate>
+      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250529022137/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>
