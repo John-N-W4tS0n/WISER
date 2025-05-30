@@ -6,8 +6,15 @@
     <description>Recent content in Welcome to WISER ! on Tech Blog : WISER</description>
     <generator>Hugo</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Fri, 30 May 2025 14:02:05 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 30 May 2025 14:32:06 +0900</lastBuildDate>
     <atom:link href="https://www.wiser-blog.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>マルウェアと暗号42 - Speck暗号によるペイロードの暗号化/復号化。簡単なC言語の例</title>
+      <link>https://www.wiser-blog.com/news/malware-news/malware-news_20250530143206/</link>
+      <pubDate>Fri, 30 May 2025 14:32:06 +0900</pubDate>
+      <guid>https://www.wiser-blog.com/news/malware-news/malware-news_20250530143206/</guid>
+      <description></description>
+    </item>
     <item>
       <title>wivia 5における複数の脆弱性</title>
       <link>https://www.wiser-blog.com/news/vulnerability-news/vulnerability-news_20250530140205/</link>
