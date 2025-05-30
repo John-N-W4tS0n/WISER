@@ -6,8 +6,15 @@
     <description>Recent content in Welcome to WISER ! on Tech Blog : WISER</description>
     <generator>Hugo</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Fri, 30 May 2025 20:02:12 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 31 May 2025 03:37:15 +0900</lastBuildDate>
     <atom:link href="https://www.wiser-blog.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>OpenCTI の実装</title>
+      <link>https://www.wiser-blog.com/docs/poc/opencti/20250531_intro/</link>
+      <pubDate>Sat, 31 May 2025 03:37:15 +0900</pubDate>
+      <guid>https://www.wiser-blog.com/docs/poc/opencti/20250531_intro/</guid>
+      <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;opencti-とは&#34;&gt;OpenCTI とは &lt;a href=&#34;#opencti-%e3%81%a8%e3%81%af&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;&lt;i class=&#34;material-icons align-middle&#34;&gt;link&lt;/i&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;OpenCTIとは、脅威インテリジェンスプラットフォーム。&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://www.wiser-blog.com/docs-images/20250531_intro_1.jpg&#34;&#xA;    alt=&#34;図.実装後のダッシュボード&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;図.実装後のダッシュボード&lt;/p&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;</description>
+    </item>
     <item>
       <title>トランプ氏側近の私有携帯がハッキング被害、なりすまし犯が州知事らと頻繁に接触…ＦＢＩが捜査 - 読売新聞オンライン</title>
       <link>https://www.wiser-blog.com/news/security-news/security-news_20250530200212/</link>
