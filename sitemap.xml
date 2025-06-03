@@ -2,11 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://www.wiser-blog.com/docs/poc/opencti/20250531_intro/</loc>
+    <lastmod>2025-05-31T03:37:15+09:00</lastmod>
+  </url><url>
     <loc>https://www.wiser-blog.com/news/security-news/</loc>
     <lastmod>2025-05-17T02:30:47+09:00</lastmod>
   </url><url>
     <loc>https://www.wiser-blog.com/docs/</loc>
     <lastmod>2025-05-17T02:30:47+09:00</lastmod>
+  </url><url>
+    <loc>https://www.wiser-blog.com/docs/poc/opencti/20250603_connector/</loc>
+    <lastmod>2025-06-03T01:45:04+09:00</lastmod>
   </url><url>
     <loc>https://www.wiser-blog.com/news/vulnerability-news/</loc>
     <lastmod>2025-05-17T02:31:26+09:00</lastmod>
@@ -27,15 +33,12 @@
     <loc>https://www.wiser-blog.com/docs/system/</loc>
   </url><url>
     <loc>https://www.wiser-blog.com/docs/poc/</loc>
-    <lastmod>2025-05-31T03:38:19+09:00</lastmod>
+    <lastmod>2025-06-03T01:45:04+09:00</lastmod>
   </url><url>
     <loc>https://www.wiser-blog.com/docs/other/</loc>
   </url><url>
     <loc>https://www.wiser-blog.com/docs/poc/opencti/</loc>
     <lastmod>2025-05-31T03:38:19+09:00</lastmod>
-  </url><url>
-    <loc>https://www.wiser-blog.com/docs/poc/opencti/20250531_intro/</loc>
-    <lastmod>2025-05-31T03:37:15+09:00</lastmod>
   </url><url>
     <loc>https://www.wiser-blog.com/news/security-news/security-news_20250603213008/</loc>
     <lastmod>2025-06-03T21:30:08+09:00</lastmod>
