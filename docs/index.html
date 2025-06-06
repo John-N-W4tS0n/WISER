@@ -144,6 +144,25 @@
                                         
                                             <li class="sidebar-dropdown nested no-icon ">
                                                 <button class="btn">
+                                                    Cloudflare
+                                                </button>
+                                                <div class="sidebar-submenu ">
+                                                    <ul>
+                                                        
+                                                            
+                                                            
+                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="https://www.wiser-blog.com/docs/poc/cloudflare/cf-zerotrust/">Cloudflare Zero Trust 実装</a></li>
+                                                            
+                                                        
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                        
+                                    
+                                        
+                                        
+                                            <li class="sidebar-dropdown nested no-icon ">
+                                                <button class="btn">
                                                     OpenCTI
                                                 </button>
                                                 <div class="sidebar-submenu ">
@@ -702,6 +721,20 @@
     
     
     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 
 
     
@@ -711,15 +744,24 @@
     index.add(
             {
                 id:  0 ,
-                href: "\/docs\/poc\/opencti\/intro\/",
-                title: "OpenCTI 実装 by Docker",
-                description: "Docker（Portainer）を利用した、OpenCTIの実装メモです。",
-                content: "\nOpenCTI とは linkOpenCTIとは、脅威インテリジェンスプラットフォーム。\n脅威インテリジェンスプラットフォームとは、脅威情報（IoC、TTPs、攻撃者情報など）を集約・整理・分析・共有するためのシステムで、OpenCTI以外にも、さまざまなプラットフォームがある。\n図. OpenCTI ダッシュボード 脅威インテリジェンスとは linkIoCなどの脅威情報のことです。\n実装 link公式docs上に、インストールガイドがあるためそれを参考に構築。\n今回はこの手順の中の、「Using Docker」を参考にして実装を行う。\n１．事前準備 link ・Portainerのインストール ※任意（本手順はこれを利用している。あると便利。） ・docker-composeのインストール ※必須\n２．.envファイルの作成 link コンテナを作成する際に、.envファイルを指定してパラメータをインポートしながら作成が可能。 リポジトリには、.envファイルのサンプル（.env.sample）もあるため、参考に作成していく。 最終、以下の.envを作成。 notifications 以下の$(cat /proc/sys/kernel/random/uuid)は、Linux標準機能でUUIDの乱数を生成してくれるバイナリだが、\nコマンドのまま記載すると失敗したので一度別途ターミナルで実行し、値を挿入した。 OPENCTI_ADMIN_EMAIL=admin@opencti.io OPENCTI_ADMIN_PASSWORD=admin OPENCTI_ADMIN_TOKEN=$(cat /proc/sys/kernel/random/uuid) OPENCTI_BASE_URL=http://localhost:8080 OPENCTI_HEALTHCHECK_ACCESS_KEY=$(cat /proc/sys/kernel/random/uuid) MINIO_ROOT_USER=$(cat /proc/sys/kernel/random/uuid) MINIO_ROOT_PASSWORD=$(cat /proc/sys/kernel/random/uuid) RABBITMQ_DEFAULT_USER=guest RABBITMQ_DEFAULT_PASS=guest ELASTIC_MEMORY_SIZE=4G CONNECTOR_HISTORY_ID=$(cat /proc/sys/kernel/random/uuid) CONNECTOR_EXPORT_FILE_STIX_ID=$(cat /proc/sys/kernel/random/uuid) CONNECTOR_EXPORT_FILE_CSV_ID=$(cat /proc/sys/kernel/random/uuid) CONNECTOR_IMPORT_FILE_STIX_ID=$(cat /proc/sys/kernel/random/uuid) CONNECTOR_EXPORT_FILE_TXT_ID=$(cat /proc/sys/kernel/random/uuid) CONNECTOR_IMPORT_DOCUMENT_ID=$(cat /proc/sys/kernel/random/uuid) CONNECTOR_ANALYSIS_ID=$(cat /proc/sys/kernel/random/uuid) SMTP_HOSTNAME=localhost ３．docker-compose.ymlの作成 link リンクから、リポジトリをダウンロードする。その中のdocker-compose.ymlファイルを編集していく。\nnotifications 再起動の度にコンテナのIPが変更になるため、コネクタ（詳細は別途）側のIP指定に不都合が起きる。\nそのためコネクタが宛先とするコンテナだけは固定IPにて実装する。 docker-compose.yml内で、ネットワークの新規作成も可能だが、エラーが起きたためあらかじめ作成しておいた。\n図. Portainer上「Networks」作成例 Dockerネットワークの指定は、ファイル末尾に以下のように行う。（あらかじめネットワークは作成しておくこと）\nnetworks: opencti_network: external: true コンテナ側で、属するネットワークとIPの指定は以下のように行う。\n固定IPを指定するコンテナは、openctiと書かれているコンテナ。\n※IPは例として記載 opencti: image: opencti/platform:6.6.0 \u003c中略\u003e networks: opencti_network: ipv4_address: 172.100.100.250 ４．Portainer上でアップロード link PortainerのUI上で、「Stacks」\u003e「Add stack」で、「Upload」から.envとdocker-compose.ymlをアップロードする。\n図. Portainer上「Add Stack」画面 名前を指定して、「Deploy the stack」でスタックを構成。\n成功のポップアップが出るまで待つと、スタックとコンテナの作成が完了する。\nhttp://localhost:8080にアクセスするとOpenCTIのログイン画面が出てくるので、.envで指定したID/PASSでログインする。\nlocalhost指定だけでなく、別デバイスから、IPを指定したアクセスも可能。\nこれで、OpenCTIの土台の実装は完了。次回は、コネクタの実装について説明予定。\n参考・引用 link https://docs.opencti.io/latest/deployment/installation/ https://github.com/OpenCTI-Platform/docker "
+                href: "\/docs\/poc\/cloudflare\/cf-zerotrust\/",
+                title: "Cloudflare Zero Trust 実装",
+                description: "\n実施したいこと link １．インターネットアクセスのセキュリティ強化および可視化（SWG） ２．ローカルサーバへのVPNアクセス（SDP） 背景 linkニュースで「Cloudflare One」が無償化？（うろ覚えだが）と見たため。\nCloudflare Zero Trust とは linkCloudflare Zero Trustの公式docs上で、以下記載がある。\nCloudflare Zero Trust は、エンタープライズ アプリケーション、ユーザー、デバイス、ネットワークを保護する Secure Access Service Edge (SASE) プラットフォームの名称である Cloudflare One の一部です。\n",
+                content: "\n実施したいこと link １．インターネットアクセスのセキュリティ強化および可視化（SWG） ２．ローカルサーバへのVPNアクセス（SDP） 背景 linkニュースで「Cloudflare One」が無償化？（うろ覚えだが）と見たため。\nCloudflare Zero Trust とは linkCloudflare Zero Trustの公式docs上で、以下記載がある。\nCloudflare Zero Trust は、エンタープライズ アプリケーション、ユーザー、デバイス、ネットワークを保護する Secure Access Service Edge (SASE) プラットフォームの名称である Cloudflare One の一部です。\nSWGやSDP（説明は別途）の機能も持ち合わせており、ライセンスの範囲内であれば個人での利用も可。\n以下、SWGの実装と、SDPの実装で分けて記載する。\n実装：SWG(Secure Web Gateway) link １．アカウント作成 link https://dash.cloudflare.com/sign-up ←ここから作成。 ログイン後、「Zero Trust」で画面遷移。\n２．Idpの設定（認証） link 以下参考に、設定を行う。 https://developers.cloudflare.com/cloudflare-one/identity/idp-integration/\n「Settings」 \u003e 「Authentication」で認証関連の設定へ移動。 図. Cloudflare One 「Settings」\u003e「Authentication」画面 「Login Method」に、 https://developers.cloudflare.com/cloudflare-one/identity/idp-integration/google/を参考に、 Google Idpの設定を行う。\n３．デバイス権限の設定（認可） link 以下参考に、設定を行う。 https://developers.cloudflare.com/cloudflare-one/connections/connect-devices/warp/deployment/device-enrollment/\n「Settings」 \u003e 「WARP Client」へ移動。 図. WARP Client 設定 「Device Enrollment」」の「Manage」へ移動。 ここで、Google Idpを利用したログインに指定する。 notifications しかし、設定した以外のGoogleアカウントもアプリを使えそう（？） 厳密に指定するのであれば、上記ルール指定時に「Email」属性も使うといいかも。 図. Device Enrollment 設定 ４．利用するクライアントでルート証明書をインストール link 以下参考に、証明書を取得する。 https://developers.cloudflare.com/cloudflare-one/connections/connect-devices/user-side-certificates/\nクライアント⇔インターネット間のSSL通信を、Cloudflareがプロキシして検査する関係上、通信経路が、 クライアント⇔Cloudflare⇔インターネットというようになる。\nそうすると、クライアントから見ると、帰ってくる証明書はCloudflareのものになる。 あらかじめ信頼済みとして登録してないと、証明書エラーが発生する。\n任意の証明書の利用も可能だが、ここではCloudflare発行の証明書を利用する。 「Settings」 \u003e 「Resource」 \u003e 「Certificates」から、IN-USEとなっている証明書の3点リーダーをクリックして、ダウンロード。\nその後、インストール。 図. 証明書一覧 ５．アプリのインストール link WARPというアプリのインストールが必要。 以下からインストール。 https://developers.cloudflare.com/cloudflare-one/connections/connect-devices/warp/download-warp/\nデプロイ手順は、「Manual Deployment」を参考に。 https://developers.cloudflare.com/cloudflare-one/connections/connect-devices/warp/deployment/manual-deployment/\nここまでで、WARPクライアントでインターネット通信がプロキシされるはず。\n６．ポリシーの設定 link SWGのポリシーは以下の種類がある。\n・DNSポリシー link DNSクエリの精査。\n・ネットワークポリシー link TCP/UDPパケットの検査。\n・HTTPポリシー link HTTPリクエストの検査。\n・Egressポリシー link インターネットアクセスの際の送信元IPに、任意の固定IPを設定できる。\n・リゾルバーポリシー link DNSクエリを任意のDNSサーバで解決するように設定できる。\n「Gateway」\u003e「Firewall Policy」から、以下参考に実装。 https://developers.cloudflare.com/cloudflare-one/policies/gateway/\n実装後、実際にWARPクライアントをONにしたうえでサイトへアクセスしてみると、 「Logs」\u003e「Gateway」からログを確認できる。\nnotifications モードが2種類あり、「Gateway with DoH」はDNSクエリのみCloudflareで検査し、\n「Gateway with WARP」は、実際にHTTPS等をCloudflare側で復号して検査する。\nWARPクライアントに指定しているプロファイルによっては、これらのモードが選択できない場合もあるため、うまくプロキシできない場合には要チェック。 実装：SDP(Software Defined Perimeter) link大まかな流れとしては、LAN内に専用のサーバーを作成し、WARPクライアントとサーバーのアウトバウンド通信のそれぞれをつないでSDPを実装しているような感じ。手順は以下参考。\nhttps://developers.cloudflare.com/cloudflare-one/connections/connect-networks/\n１．トンネルの作成 link 「Access」\u003e「Tunnel」から、Cloudflaredを選択。 図. トンネル作成画面 トンネル名を付けて、CloudflaredをインストールするマシンのOSにしたがってスクリプトを取得する。 私が実装したのは、Miracle Linuxで構成されているサーバーのため、Red Hatのスクリプトを取得する。\n出てきたスクリプトをサーバー上で実行すると、Cloudflare側の画面下部に以下が表示され、「接続済み」となる。 図. 接続完了画面 サーバー側ではサービスが作成され、systemctlで確認できる。 図. cloudflared状態確認 ２．プライベートネットワークの設定 link 接続したいプライベートネットワークを設定する。一旦サーバーのセグメントを指定。 パブリックホスト名は設定不要。 図. プライベートネットワーク作成画面 トンネルが作成され、「ステータス」がHEALTHYになっていればOK。 図. トンネル一覧画面 notifications 他にも追加したいIPセグメントがあれば、追加する。 ３．プロファイルの設定 link 接続したいIPセグメントに対して、Cloudflareトンネルを通るように設定が必要。 デフォルトの設定では、プライベートIP宛ての通信は、Cloudflareではなくローカルに流れてしまう。\n「Settings」\u003e「WARP Client」にある各プロファイルの設定画面に入り、以下セクションの設定を変更する。 図. プロファイル設定画面 私の環境では、以下プライベートIPをすべて削除した。 図. 除外設定：プライベートIP一覧 notifications 変更後、画面戻った後にはプロファイルの保存を忘れずに。 ４．ポリシー設定 link SWGの時と同じ要領で、ポリシーを設定する。\nHTTPSの通信等、SSLが必要な通信に関しては、個人の環境では自己署名証明書のケースが多いと思われる。 その場合、証明書エラーではじかれるので、HTTPポリシーで証明書チェックをバイパスする設定が必要。 図. HTTPポリシー：アクション設定例 ５．動作確認 link 私の環境内でのUTM（FortiGate）でログを確認すると、該当通信の送信元IPアドレスが、Cloudflaredを実行しているサーバーとなっていることがわかる。 参考・引用 link https://developers.cloudflare.com/cloudflare-one/setup/ https://developers.cloudflare.com/cloudflare-one/identity/idp-integration/ https://developers.cloudflare.com/cloudflare-one/identity/idp-integration/google/ https://developers.cloudflare.com/cloudflare-one/connections/connect-devices/warp/deployment/device-enrollment/ https://developers.cloudflare.com/cloudflare-one/connections/connect-devices/user-side-certificates/ https://developers.cloudflare.com/cloudflare-one/connections/connect-devices/warp/download-warp/ https://developers.cloudflare.com/cloudflare-one/connections/connect-devices/warp/deployment/manual-deployment/ https://developers.cloudflare.com/cloudflare-one/policies/gateway/ https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/ "
             }
         );
     index.add(
             {
                 id:  1 ,
+                href: "\/docs\/poc\/opencti\/intro\/",
+                title: "OpenCTI 実装 by Docker",
+                description: "Docker（Portainer）を利用した、OpenCTIの実装メモです。",
+                content: "\nOpenCTI とは linkOpenCTIとは、脅威インテリジェンスプラットフォーム。\n脅威インテリジェンスプラットフォームとは、脅威情報（IoC、TTPs、攻撃者情報など）を集約・整理・分析・共有するためのシステムで、OpenCTI以外にも、さまざまなプラットフォームがある。\n図. OpenCTI ダッシュボード 脅威インテリジェンスとは linkIoCなどの脅威情報のことです。\n実装 link公式docs上に、インストールガイドがあるためそれを参考に構築。\n今回はこの手順の中の、「Using Docker」を参考にして実装を行う。\n１．事前準備 link ・Portainerのインストール ※任意（本手順はこれを利用している。あると便利。） ・docker-composeのインストール ※必須\n２．.envファイルの作成 link コンテナを作成する際に、.envファイルを指定してパラメータをインポートしながら作成が可能。 OpenCTIのGitHubリポジトリには、.envファイルのサンプル（.env.sample）もあるため、参考に作成していく。 最終、以下の.envを作成。 notifications 以下の$(cat /proc/sys/kernel/random/uuid)は、Linux標準機能でUUIDの乱数を生成してくれるバイナリだが、\nコマンドのまま記載すると失敗したので一度別途ターミナルで実行し、値を挿入した。 OPENCTI_ADMIN_EMAIL=admin@opencti.io OPENCTI_ADMIN_PASSWORD=admin OPENCTI_ADMIN_TOKEN=$(cat /proc/sys/kernel/random/uuid) OPENCTI_BASE_URL=http://localhost:8080 OPENCTI_HEALTHCHECK_ACCESS_KEY=$(cat /proc/sys/kernel/random/uuid) MINIO_ROOT_USER=$(cat /proc/sys/kernel/random/uuid) MINIO_ROOT_PASSWORD=$(cat /proc/sys/kernel/random/uuid) RABBITMQ_DEFAULT_USER=guest RABBITMQ_DEFAULT_PASS=guest ELASTIC_MEMORY_SIZE=4G CONNECTOR_HISTORY_ID=$(cat /proc/sys/kernel/random/uuid) CONNECTOR_EXPORT_FILE_STIX_ID=$(cat /proc/sys/kernel/random/uuid) CONNECTOR_EXPORT_FILE_CSV_ID=$(cat /proc/sys/kernel/random/uuid) CONNECTOR_IMPORT_FILE_STIX_ID=$(cat /proc/sys/kernel/random/uuid) CONNECTOR_EXPORT_FILE_TXT_ID=$(cat /proc/sys/kernel/random/uuid) CONNECTOR_IMPORT_DOCUMENT_ID=$(cat /proc/sys/kernel/random/uuid) CONNECTOR_ANALYSIS_ID=$(cat /proc/sys/kernel/random/uuid) SMTP_HOSTNAME=localhost ３．docker-compose.ymlの作成 link リンクから、リポジトリをダウンロードする。その中のdocker-compose.ymlファイルを編集していく。\nnotifications 再起動の度にコンテナのIPが変更になるため、コネクタ（詳細は別途）側のIP指定に不都合が起きる。\nそのためコネクタが宛先とするコンテナだけは固定IPにて実装する。 docker-compose.yml内で、ネットワークの新規作成も可能だが、エラーが起きたためあらかじめ作成しておいた。\n図. Portainer上「Networks」作成例 Dockerネットワークの指定は、ファイル末尾に以下のように行う。（あらかじめネットワークは作成しておくこと）\nnetworks: opencti_network: external: true コンテナ側で、属するネットワークとIPの指定は以下のように行う。\n固定IPを指定するコンテナは、openctiと書かれているコンテナ。\n※IPは例として記載 opencti: image: opencti/platform:6.6.0 \u003c中略\u003e networks: opencti_network: ipv4_address: 172.100.100.250 ４．Portainer上でアップロード link PortainerのUI上で、「Stacks」\u003e「Add stack」で、「Upload」から.envとdocker-compose.ymlをアップロードする。\n図. Portainer上「Add Stack」画面 名前を指定して、「Deploy the stack」でスタックを構成。\n成功のポップアップが出るまで待つと、スタックとコンテナの作成が完了する。\nhttp://localhost:8080にアクセスするとOpenCTIのログイン画面が出てくるので、.envで指定したID/PASSでログインする。\nlocalhost指定だけでなく、別デバイスから、IPを指定したアクセスも可能。\nこれで、OpenCTIの土台の実装は完了。次回は、コネクタの実装について説明予定。\n参考・引用 link https://docs.opencti.io/latest/deployment/installation/ https://github.com/OpenCTI-Platform/docker "
+            }
+        );
+    index.add(
+            {
+                id:  2 ,
                 href: "\/docs\/",
                 title: "Technology Notes",
                 description: "私が個人で触れた製品や、技術に関して記載したメモ書きです。",
@@ -728,7 +770,7 @@
         );
     index.add(
             {
-                id:  2 ,
+                id:  3 ,
                 href: "\/docs\/poc\/opencti\/connector\/",
                 title: "OpenCTI Connector 実装 by Docker",
                 description: "OpenCTIの実装に続き、コネクターの実装メモです。（Docker利用）",
@@ -737,7 +779,7 @@
         );
     index.add(
             {
-                id:  3 ,
+                id:  4 ,
                 href: "\/docs\/security\/",
                 title: "Security",
                 description: "情報セキュリティに関する技術のメモ書きです。",
@@ -746,7 +788,7 @@
         );
     index.add(
             {
-                id:  4 ,
+                id:  5 ,
                 href: "\/docs\/networks\/",
                 title: "Networks",
                 description: "ネットワークの基礎やVPN、その他ネットワークプロトコル等の関連技術のメモ書きです。",
@@ -755,7 +797,7 @@
         );
     index.add(
             {
-                id:  5 ,
+                id:  6 ,
                 href: "\/docs\/programming\/",
                 title: "Programming",
                 description: "プログラミング言語や、プログラミングに関するフレームワークに関するメモ書きです。",
@@ -764,7 +806,7 @@
         );
     index.add(
             {
-                id:  6 ,
+                id:  7 ,
                 href: "\/docs\/system\/",
                 title: "System",
                 description: "WindowsやLinux、仮想化技術に関するメモ書きです。",
@@ -773,7 +815,7 @@
         );
     index.add(
             {
-                id:  7 ,
+                id:  8 ,
                 href: "\/docs\/poc\/",
                 title: "PoC: Proof Of Concept",
                 description: "OSS等の構築・検証のメモ書きです。※本サイト構築メモもこちら",
@@ -782,7 +824,7 @@
         );
     index.add(
             {
-                id:  8 ,
+                id:  9 ,
                 href: "\/docs\/other\/",
                 title: "Other",
                 description: "その他、ITに関するワードのメモ書き等です。",
@@ -791,7 +833,16 @@
         );
     index.add(
             {
-                id:  9 ,
+                id:  10 ,
+                href: "\/docs\/poc\/cloudflare\/",
+                title: "Cloudflare",
+                description: "",
+                content: ""
+            }
+        );
+    index.add(
+            {
+                id:  11 ,
                 href: "\/docs\/poc\/opencti\/",
                 title: "OpenCTI",
                 description: "",

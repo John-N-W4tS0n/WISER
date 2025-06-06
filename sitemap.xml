@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://www.wiser-blog.com/docs/poc/cloudflare/cf-zerotrust/</loc>
+    <lastmod>2025-06-05T02:02:14+09:00</lastmod>
+  </url><url>
     <loc>https://www.wiser-blog.com/docs/poc/opencti/intro/</loc>
     <lastmod>2025-05-31T03:37:15+09:00</lastmod>
   </url><url>
@@ -37,92 +40,11 @@
   </url><url>
     <loc>https://www.wiser-blog.com/docs/other/</loc>
   </url><url>
+    <loc>https://www.wiser-blog.com/docs/poc/cloudflare/</loc>
+    <lastmod>2025-06-05T03:38:19+09:00</lastmod>
+  </url><url>
     <loc>https://www.wiser-blog.com/docs/poc/opencti/</loc>
     <lastmod>2025-05-31T03:38:19+09:00</lastmod>
-  </url><url>
-    <loc>https://www.wiser-blog.com/news/security-news/security-news_20250607003008/</loc>
-    <lastmod>2025-06-07T00:30:08+09:00</lastmod>
-  </url><url>
-    <loc>https://www.wiser-blog.com/news/security-news/security-news_20250607001507/</loc>
-    <lastmod>2025-06-07T00:15:07+09:00</lastmod>
-  </url><url>
-    <loc>https://www.wiser-blog.com/news/security-news/security-news_20250607000009/</loc>
-    <lastmod>2025-06-07T00:00:09+09:00</lastmod>
-  </url><url>
-    <loc>https://www.wiser-blog.com/news/security-news/security-news_20250606201509/</loc>
-    <lastmod>2025-06-06T20:15:09+09:00</lastmod>
-  </url><url>
-    <loc>https://www.wiser-blog.com/news/security-news/security-news_20250606200009/</loc>
-    <lastmod>2025-06-06T20:00:09+09:00</lastmod>
-  </url><url>
-    <loc>https://www.wiser-blog.com/news/security-news/security-news_20250606183007/</loc>
-    <lastmod>2025-06-06T18:30:07+09:00</lastmod>
-  </url><url>
-    <loc>https://www.wiser-blog.com/news/security-news/security-news_20250606174505/</loc>
-    <lastmod>2025-06-06T17:45:05+09:00</lastmod>
-  </url><url>
-    <loc>https://www.wiser-blog.com/news/security-news/security-news_20250606173006/</loc>
-    <lastmod>2025-06-06T17:30:06+09:00</lastmod>
-  </url><url>
-    <loc>https://www.wiser-blog.com/news/security-news/security-news_20250606173005/</loc>
-    <lastmod>2025-06-06T17:30:05+09:00</lastmod>
-  </url><url>
-    <loc>https://www.wiser-blog.com/news/security-news/security-news_20250606170007/</loc>
-    <lastmod>2025-06-06T17:00:07+09:00</lastmod>
-  </url><url>
-    <loc>https://www.wiser-blog.com/news/security-news/security-news_20250606153007/</loc>
-    <lastmod>2025-06-06T15:30:07+09:00</lastmod>
-  </url><url>
-    <loc>https://www.wiser-blog.com/news/vulnerability-news/vulnerability-news_20250606150012/</loc>
-    <lastmod>2025-06-06T15:00:12+09:00</lastmod>
-  </url><url>
-    <loc>https://www.wiser-blog.com/news/vulnerability-news/vulnerability-news_20250606144509/</loc>
-    <lastmod>2025-06-06T14:45:09+09:00</lastmod>
-  </url><url>
-    <loc>https://www.wiser-blog.com/news/malware-news/malware-news_20250606141520/</loc>
-    <lastmod>2025-06-06T14:15:20+09:00</lastmod>
-  </url><url>
-    <loc>https://www.wiser-blog.com/news/vulnerability-news/vulnerability-news_20250606130007/</loc>
-    <lastmod>2025-06-06T13:00:07+09:00</lastmod>
-  </url><url>
-    <loc>https://www.wiser-blog.com/news/security-news/security-news_20250606123005/</loc>
-    <lastmod>2025-06-06T12:30:05+09:00</lastmod>
-  </url><url>
-    <loc>https://www.wiser-blog.com/news/vulnerability-news/vulnerability-news_20250606121558/</loc>
-    <lastmod>2025-06-06T12:15:58+09:00</lastmod>
-  </url><url>
-    <loc>https://www.wiser-blog.com/news/security-news/security-news_20250606121507/</loc>
-    <lastmod>2025-06-06T12:15:07+09:00</lastmod>
-  </url><url>
-    <loc>https://www.wiser-blog.com/news/malware-news/malware-news_20250606093107/</loc>
-    <lastmod>2025-06-06T09:31:07+09:00</lastmod>
-  </url><url>
-    <loc>https://www.wiser-blog.com/news/security-news/security-news_20250606093017/</loc>
-    <lastmod>2025-06-06T09:30:17+09:00</lastmod>
-  </url><url>
-    <loc>https://www.wiser-blog.com/news/security-news/security-news_20250606091507/</loc>
-    <lastmod>2025-06-06T09:15:07+09:00</lastmod>
-  </url><url>
-    <loc>https://www.wiser-blog.com/news/security-news/security-news_20250606090016/</loc>
-    <lastmod>2025-06-06T09:00:16+09:00</lastmod>
-  </url><url>
-    <loc>https://www.wiser-blog.com/news/security-news/security-news_20250606084506/</loc>
-    <lastmod>2025-06-06T08:45:06+09:00</lastmod>
-  </url><url>
-    <loc>https://www.wiser-blog.com/news/security-news/security-news_20250606083006/</loc>
-    <lastmod>2025-06-06T08:30:06+09:00</lastmod>
-  </url><url>
-    <loc>https://www.wiser-blog.com/news/security-news/security-news_20250606081507/</loc>
-    <lastmod>2025-06-06T08:15:07+09:00</lastmod>
-  </url><url>
-    <loc>https://www.wiser-blog.com/news/security-news/security-news_20250606073008/</loc>
-    <lastmod>2025-06-06T07:30:08+09:00</lastmod>
-  </url><url>
-    <loc>https://www.wiser-blog.com/news/security-news/security-news_20250606071508/</loc>
-    <lastmod>2025-06-06T07:15:08+09:00</lastmod>
-  </url><url>
-    <loc>https://www.wiser-blog.com/news/security-news/security-news_20250606070011/</loc>
-    <lastmod>2025-06-06T07:00:11+09:00</lastmod>
   </url><url>
     <loc>https://www.wiser-blog.com/news/security-news/security-news_20250606001516/</loc>
     <lastmod>2025-06-06T00:15:16+09:00</lastmod>
