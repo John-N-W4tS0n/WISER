@@ -2,486 +2,682 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Welcome to WISER ! on Tech Blog : WISER</title>
-    <link>https://www.wiser-blog.com/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content in Welcome to WISER ! on Tech Blog : WISER</description>
     <generator>Hugo</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Fri, 06 Jun 2025 00:15:16 +0900</lastBuildDate>
-    <atom:link href="https://www.wiser-blog.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 07 Jun 2025 00:30:08 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cloudflare Zero Trust 実装</title>
-      <link>https://www.wiser-blog.com/docs/poc/cloudflare/cf-zerotrust/</link>
+      <link>http://localhost:1313/docs/poc/cloudflare/cf-zerotrust/</link>
       <pubDate>Thu, 05 Jun 2025 02:02:14 +0900</pubDate>
-      <guid>https://www.wiser-blog.com/docs/poc/cloudflare/cf-zerotrust/</guid>
+      <guid>http://localhost:1313/docs/poc/cloudflare/cf-zerotrust/</guid>
       <description>&lt;br&gt;&#xA;&lt;h2 id=&#34;実施したいこと&#34;&gt;実施したいこと &lt;a href=&#34;#%e5%ae%9f%e6%96%bd%e3%81%97%e3%81%9f%e3%81%84%e3%81%93%e3%81%a8&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;&lt;i class=&#34;material-icons align-middle&#34;&gt;link&lt;/i&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;１．インターネットアクセスのセキュリティ強化および可視化（SWG）&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;２．ローカルサーバへのVPNアクセス（SDP）&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;背景&#34;&gt;背景 &lt;a href=&#34;#%e8%83%8c%e6%99%af&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;&lt;i class=&#34;material-icons align-middle&#34;&gt;link&lt;/i&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;ニュースで「&lt;strong&gt;Cloudflare One&lt;/strong&gt;」が無償化？（うろ覚えだが）と見たため。&lt;/p&gt;&#xA;&lt;h2 id=&#34;cloudflare-zero-trust-とは&#34;&gt;Cloudflare Zero Trust とは &lt;a href=&#34;#cloudflare-zero-trust-%e3%81%a8%e3%81%af&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;&lt;i class=&#34;material-icons align-middle&#34;&gt;link&lt;/i&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Cloudflare Zero Trustの&lt;a href=&#34;https://developers.cloudflare.com/cloudflare-one/&#34; rel=&#34;external&#34; target=&#34;_blank&#34;&gt;公式docs&lt;svg width=&#34;16&#34; height=&#34;16&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path fill=&#34;currentColor&#34; d=&#34;M14 5c-.552 0-1-.448-1-1s.448-1 1-1h6c.552 0 1 .448 1 1v6c0 .552-.448 1-1 1s-1-.448-1-1v-3.586l-7.293 7.293c-.391.39-1.024.39-1.414 0-.391-.391-.391-1.024 0-1.414l7.293-7.293h-3.586zm-9 2c-.552 0-1 .448-1 1v11c0 .552.448 1 1 1h11c.552 0 1-.448 1-1v-4.563c0-.552.448-1 1-1s1 .448 1 1v4.563c0 1.657-1.343 3-3 3h-11c-1.657 0-3-1.343-3-3v-11c0-1.657 1.343-3 3-3h4.563c.552 0 1 .448 1 1s-.448 1-1 1h-4.563z&#34;/&gt;&lt;/svg&gt;&lt;/a&gt;上で、以下記載がある。&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Cloudflare Zero Trust は、エンタープライズ アプリケーション、ユーザー、デバイス、ネットワークを保護する Secure Access Service Edge (SASE) プラットフォームの名称である Cloudflare One の一部です。&lt;/p&gt;</description>
     </item>
     <item>
       <title>OpenCTI 実装 by Docker</title>
-      <link>https://www.wiser-blog.com/docs/poc/opencti/intro/</link>
+      <link>http://localhost:1313/docs/poc/opencti/intro/</link>
       <pubDate>Sat, 31 May 2025 03:37:15 +0900</pubDate>
-      <guid>https://www.wiser-blog.com/docs/poc/opencti/intro/</guid>
-      <description>&lt;br&gt;&#xA;&lt;h2 id=&#34;opencti-とは&#34;&gt;OpenCTI とは &lt;a href=&#34;#opencti-%e3%81%a8%e3%81%af&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;&lt;i class=&#34;material-icons align-middle&#34;&gt;link&lt;/i&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;OpenCTI&lt;/strong&gt;とは、&lt;strong&gt;脅威インテリジェンスプラットフォーム&lt;/strong&gt;。&lt;br&gt;&#xA;脅威インテリジェンスプラットフォームとは、脅威情報（IoC、TTPs、攻撃者情報など）を集約・整理・分析・共有するためのシステムで、OpenCTI以外にも、さまざまなプラットフォームがある。&lt;br&gt;&#xA;&#xA;&#xA;&#xA;&lt;figure&gt;&#xA;  &lt;img src=&#34;https://www.wiser-blog.com/docs-images/PoC/opencti/20250531_intro_1.jpg&#34; alt=&#34;図. OpenCTI ダッシュボード&#34; loading=&#34;lazy&#34; style=&#34;max-width: 100%; height: auto;&#34;&gt;&#xA;  &#xA;    &lt;figcaption style=&#34;font-size: 1em;&#34;&gt;図. OpenCTI ダッシュボード&lt;/figcaption&gt;&#xA;  &#xA;&lt;/figure&gt;&#xA;&lt;/p&gt;&#xA;&lt;h2 id=&#34;脅威インテリジェンスとは&#34;&gt;脅威インテリジェンスとは &lt;a href=&#34;#%e8%84%85%e5%a8%81%e3%82%a4%e3%83%b3%e3%83%86%e3%83%aa%e3%82%b8%e3%82%a7%e3%83%b3%e3%82%b9%e3%81%a8%e3%81%af&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;&lt;i class=&#34;material-icons align-middle&#34;&gt;link&lt;/i&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;IoCなどの脅威情報のことです。&lt;br&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;実装&#34;&gt;実装 &lt;a href=&#34;#%e5%ae%9f%e8%a3%85&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;&lt;i class=&#34;material-icons align-middle&#34;&gt;link&lt;/i&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;公式docs上に、&lt;a href=&#34;https://docs.opencti.io/latest/deployment/installation/&#34; rel=&#34;external&#34; target=&#34;_blank&#34;&gt;インストールガイド&lt;svg width=&#34;16&#34; height=&#34;16&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path fill=&#34;currentColor&#34; d=&#34;M14 5c-.552 0-1-.448-1-1s.448-1 1-1h6c.552 0 1 .448 1 1v6c0 .552-.448 1-1 1s-1-.448-1-1v-3.586l-7.293 7.293c-.391.39-1.024.39-1.414 0-.391-.391-.391-1.024 0-1.414l7.293-7.293h-3.586zm-9 2c-.552 0-1 .448-1 1v11c0 .552.448 1 1 1h11c.552 0 1-.448 1-1v-4.563c0-.552.448-1 1-1s1 .448 1 1v4.563c0 1.657-1.343 3-3 3h-11c-1.657 0-3-1.343-3-3v-11c0-1.657 1.343-3 3-3h4.563c.552 0 1 .448 1 1s-.448 1-1 1h-4.563z&#34;/&gt;&lt;/svg&gt;&lt;/a&gt;があるためそれを参考に構築。&lt;br&gt;&#xA;今回はこの手順の中の、「Using Docker」を参考にして実装を行う。&lt;br&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;h3 id=&#34;１事前準備&#34;&gt;１．事前準備 &lt;a href=&#34;#%ef%bc%91%e4%ba%8b%e5%89%8d%e6%ba%96%e5%82%99&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;&lt;i class=&#34;material-icons align-middle&#34;&gt;link&lt;/i&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;&#xA;&lt;li&gt;・Portainerのインストール ※任意（本手順はこれを利用している。あると便利。）&lt;/li&gt;&#xA;&lt;li&gt;・docker-composeのインストール &lt;strong&gt;※必須&lt;/strong&gt;&lt;br&gt;&#xA;&lt;br&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;h3 id=&#34;２envファイルの作成&#34;&gt;２．.envファイルの作成 &lt;a href=&#34;#%ef%bc%92env%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab%e3%81%ae%e4%bd%9c%e6%88%90&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;&lt;i class=&#34;material-icons align-middle&#34;&gt;link&lt;/i&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;&#xA;&lt;li&gt;コンテナを作成する際に、.envファイルを指定して&lt;strong&gt;パラメータをインポートしながら作成&lt;/strong&gt;が可能。&lt;/li&gt;&#xA;&lt;li&gt;OpenCTIのGitHubリポジトリには、.envファイルのサンプル（&lt;code&gt;.env.sample&lt;/code&gt;）もあるため、参考に作成していく。&lt;/li&gt;&#xA;&lt;li&gt;最終、以下の.envを作成。&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;br&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;div class=&#34;alert alert-default d-flex&#34; role=&#34;alert&#34;&gt;&#xA;  &lt;div class=&#34;flex-shrink-1 alert-icon&#34;&gt;&#xA;  &#xA;  &lt;span class=&#34;material-icons size-20 me-2&#34;&gt;&#xA;  notifications&#xA;  &lt;/span&gt;&lt;/div&gt;&#xA;  &#xA;  &#xA;  &lt;div class=&#34;w-100&#34;&gt;&#xA;  &#xA;&#x9;以下の$(cat /proc/sys/kernel/random/uuid)は、Linux標準機能でUUIDの乱数を生成してくれるバイナリだが、&lt;br&gt;&#xA;&#x9;コマンドのまま記載すると失敗したので一度別途ターミナルで実行し、値を挿入した。&#xA;&#x9;&#xA;  &lt;/div&gt;&#xA;  &lt;/div&gt;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&#xA;&#xA;    &#xA;    &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;  OPENCTI_ADMIN_EMAIL=admin@opencti.io&#xA;  OPENCTI_ADMIN_PASSWORD=admin&#xA;  OPENCTI_ADMIN_TOKEN=$(cat /proc/sys/kernel/random/uuid)&#xA;  OPENCTI_BASE_URL=http://localhost:8080&#xA;  OPENCTI_HEALTHCHECK_ACCESS_KEY=$(cat /proc/sys/kernel/random/uuid)&#xA;  MINIO_ROOT_USER=$(cat /proc/sys/kernel/random/uuid)&#xA;  MINIO_ROOT_PASSWORD=$(cat /proc/sys/kernel/random/uuid)&#xA;  RABBITMQ_DEFAULT_USER=guest&#xA;  RABBITMQ_DEFAULT_PASS=guest&#xA;  ELASTIC_MEMORY_SIZE=4G&#xA;  CONNECTOR_HISTORY_ID=$(cat /proc/sys/kernel/random/uuid)&#xA;  CONNECTOR_EXPORT_FILE_STIX_ID=$(cat /proc/sys/kernel/random/uuid)&#xA;  CONNECTOR_EXPORT_FILE_CSV_ID=$(cat /proc/sys/kernel/random/uuid)&#xA;  CONNECTOR_IMPORT_FILE_STIX_ID=$(cat /proc/sys/kernel/random/uuid)&#xA;  CONNECTOR_EXPORT_FILE_TXT_ID=$(cat /proc/sys/kernel/random/uuid)&#xA;  CONNECTOR_IMPORT_DOCUMENT_ID=$(cat /proc/sys/kernel/random/uuid)&#xA;  CONNECTOR_ANALYSIS_ID=$(cat /proc/sys/kernel/random/uuid)&#xA;  SMTP_HOSTNAME=localhost&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;br&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;h3 id=&#34;３docker-composeymlの作成&#34;&gt;３．docker-compose.ymlの作成 &lt;a href=&#34;#%ef%bc%93docker-composeyml%e3%81%ae%e4%bd%9c%e6%88%90&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;&lt;i class=&#34;material-icons align-middle&#34;&gt;link&lt;/i&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/OpenCTI-Platform/docker&#34; rel=&#34;external&#34; target=&#34;_blank&#34;&gt;リンク&lt;svg width=&#34;16&#34; height=&#34;16&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path fill=&#34;currentColor&#34; d=&#34;M14 5c-.552 0-1-.448-1-1s.448-1 1-1h6c.552 0 1 .448 1 1v6c0 .552-.448 1-1 1s-1-.448-1-1v-3.586l-7.293 7.293c-.391.39-1.024.39-1.414 0-.391-.391-.391-1.024 0-1.414l7.293-7.293h-3.586zm-9 2c-.552 0-1 .448-1 1v11c0 .552.448 1 1 1h11c.552 0 1-.448 1-1v-4.563c0-.552.448-1 1-1s1 .448 1 1v4.563c0 1.657-1.343 3-3 3h-11c-1.657 0-3-1.343-3-3v-11c0-1.657 1.343-3 3-3h4.563c.552 0 1 .448 1 1s-.448 1-1 1h-4.563z&#34;/&gt;&lt;/svg&gt;&lt;/a&gt;から、リポジトリをダウンロードする。その中の&lt;code&gt;docker-compose.yml&lt;/code&gt;ファイルを編集していく。&lt;br&gt;&lt;/p&gt;</description>
+      <guid>http://localhost:1313/docs/poc/opencti/intro/</guid>
+      <description>&lt;br&gt;&#xA;&lt;h2 id=&#34;opencti-とは&#34;&gt;OpenCTI とは &lt;a href=&#34;#opencti-%e3%81%a8%e3%81%af&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;&lt;i class=&#34;material-icons align-middle&#34;&gt;link&lt;/i&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;OpenCTI&lt;/strong&gt;とは、&lt;strong&gt;脅威インテリジェンスプラットフォーム&lt;/strong&gt;。&lt;br&gt;&#xA;脅威インテリジェンスプラットフォームとは、脅威情報（IoC、TTPs、攻撃者情報など）を集約・整理・分析・共有するためのシステムで、OpenCTI以外にも、さまざまなプラットフォームがある。&lt;br&gt;&#xA;&#xA;&#xA;&#xA;&lt;figure&gt;&#xA;  &lt;img src=&#34;http://localhost:1313/docs-images/PoC/opencti/20250531_intro_1.jpg&#34; alt=&#34;図. OpenCTI ダッシュボード&#34; loading=&#34;lazy&#34; style=&#34;max-width: 100%; height: auto;&#34;&gt;&#xA;  &#xA;    &lt;figcaption style=&#34;font-size: 1em;&#34;&gt;図. OpenCTI ダッシュボード&lt;/figcaption&gt;&#xA;  &#xA;&lt;/figure&gt;&#xA;&lt;/p&gt;&#xA;&lt;h2 id=&#34;脅威インテリジェンスとは&#34;&gt;脅威インテリジェンスとは &lt;a href=&#34;#%e8%84%85%e5%a8%81%e3%82%a4%e3%83%b3%e3%83%86%e3%83%aa%e3%82%b8%e3%82%a7%e3%83%b3%e3%82%b9%e3%81%a8%e3%81%af&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;&lt;i class=&#34;material-icons align-middle&#34;&gt;link&lt;/i&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;IoCなどの脅威情報のことです。&lt;br&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;実装&#34;&gt;実装 &lt;a href=&#34;#%e5%ae%9f%e8%a3%85&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;&lt;i class=&#34;material-icons align-middle&#34;&gt;link&lt;/i&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;公式docs上に、&lt;a href=&#34;https://docs.opencti.io/latest/deployment/installation/&#34; rel=&#34;external&#34; target=&#34;_blank&#34;&gt;インストールガイド&lt;svg width=&#34;16&#34; height=&#34;16&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path fill=&#34;currentColor&#34; d=&#34;M14 5c-.552 0-1-.448-1-1s.448-1 1-1h6c.552 0 1 .448 1 1v6c0 .552-.448 1-1 1s-1-.448-1-1v-3.586l-7.293 7.293c-.391.39-1.024.39-1.414 0-.391-.391-.391-1.024 0-1.414l7.293-7.293h-3.586zm-9 2c-.552 0-1 .448-1 1v11c0 .552.448 1 1 1h11c.552 0 1-.448 1-1v-4.563c0-.552.448-1 1-1s1 .448 1 1v4.563c0 1.657-1.343 3-3 3h-11c-1.657 0-3-1.343-3-3v-11c0-1.657 1.343-3 3-3h4.563c.552 0 1 .448 1 1s-.448 1-1 1h-4.563z&#34;/&gt;&lt;/svg&gt;&lt;/a&gt;があるためそれを参考に構築。&lt;br&gt;&#xA;今回はこの手順の中の、「Using Docker」を参考にして実装を行う。&lt;br&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;h3 id=&#34;１事前準備&#34;&gt;１．事前準備 &lt;a href=&#34;#%ef%bc%91%e4%ba%8b%e5%89%8d%e6%ba%96%e5%82%99&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;&lt;i class=&#34;material-icons align-middle&#34;&gt;link&lt;/i&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;&#xA;&lt;li&gt;・Portainerのインストール ※任意（本手順はこれを利用している。あると便利。）&lt;/li&gt;&#xA;&lt;li&gt;・docker-composeのインストール &lt;strong&gt;※必須&lt;/strong&gt;&lt;br&gt;&#xA;&lt;br&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;h3 id=&#34;２envファイルの作成&#34;&gt;２．.envファイルの作成 &lt;a href=&#34;#%ef%bc%92env%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab%e3%81%ae%e4%bd%9c%e6%88%90&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;&lt;i class=&#34;material-icons align-middle&#34;&gt;link&lt;/i&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;&#xA;&lt;li&gt;コンテナを作成する際に、.envファイルを指定して&lt;strong&gt;パラメータをインポートしながら作成&lt;/strong&gt;が可能。&lt;/li&gt;&#xA;&lt;li&gt;OpenCTIのGitHubリポジトリには、.envファイルのサンプル（&lt;code&gt;.env.sample&lt;/code&gt;）もあるため、参考に作成していく。&lt;/li&gt;&#xA;&lt;li&gt;最終、以下の.envを作成。&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;br&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;div class=&#34;alert alert-default d-flex&#34; role=&#34;alert&#34;&gt;&#xA;  &lt;div class=&#34;flex-shrink-1 alert-icon&#34;&gt;&#xA;  &#xA;  &lt;span class=&#34;material-icons size-20 me-2&#34;&gt;&#xA;  notifications&#xA;  &lt;/span&gt;&lt;/div&gt;&#xA;  &#xA;  &#xA;  &lt;div class=&#34;w-100&#34;&gt;&#xA;  &#xA;&#x9;以下の$(cat /proc/sys/kernel/random/uuid)は、Linux標準機能でUUIDの乱数を生成してくれるバイナリだが、&lt;br&gt;&#xA;&#x9;コマンドのまま記載すると失敗したので一度別途ターミナルで実行し、値を挿入した。&#xA;&#x9;&#xA;  &lt;/div&gt;&#xA;  &lt;/div&gt;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&#xA;&#xA;    &#xA;    &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;  OPENCTI_ADMIN_EMAIL=admin@opencti.io&#xA;  OPENCTI_ADMIN_PASSWORD=admin&#xA;  OPENCTI_ADMIN_TOKEN=$(cat /proc/sys/kernel/random/uuid)&#xA;  OPENCTI_BASE_URL=http://localhost:8080&#xA;  OPENCTI_HEALTHCHECK_ACCESS_KEY=$(cat /proc/sys/kernel/random/uuid)&#xA;  MINIO_ROOT_USER=$(cat /proc/sys/kernel/random/uuid)&#xA;  MINIO_ROOT_PASSWORD=$(cat /proc/sys/kernel/random/uuid)&#xA;  RABBITMQ_DEFAULT_USER=guest&#xA;  RABBITMQ_DEFAULT_PASS=guest&#xA;  ELASTIC_MEMORY_SIZE=4G&#xA;  CONNECTOR_HISTORY_ID=$(cat /proc/sys/kernel/random/uuid)&#xA;  CONNECTOR_EXPORT_FILE_STIX_ID=$(cat /proc/sys/kernel/random/uuid)&#xA;  CONNECTOR_EXPORT_FILE_CSV_ID=$(cat /proc/sys/kernel/random/uuid)&#xA;  CONNECTOR_IMPORT_FILE_STIX_ID=$(cat /proc/sys/kernel/random/uuid)&#xA;  CONNECTOR_EXPORT_FILE_TXT_ID=$(cat /proc/sys/kernel/random/uuid)&#xA;  CONNECTOR_IMPORT_DOCUMENT_ID=$(cat /proc/sys/kernel/random/uuid)&#xA;  CONNECTOR_ANALYSIS_ID=$(cat /proc/sys/kernel/random/uuid)&#xA;  SMTP_HOSTNAME=localhost&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;br&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;h3 id=&#34;３docker-composeymlの作成&#34;&gt;３．docker-compose.ymlの作成 &lt;a href=&#34;#%ef%bc%93docker-composeyml%e3%81%ae%e4%bd%9c%e6%88%90&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;&lt;i class=&#34;material-icons align-middle&#34;&gt;link&lt;/i&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/OpenCTI-Platform/docker&#34; rel=&#34;external&#34; target=&#34;_blank&#34;&gt;リンク&lt;svg width=&#34;16&#34; height=&#34;16&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path fill=&#34;currentColor&#34; d=&#34;M14 5c-.552 0-1-.448-1-1s.448-1 1-1h6c.552 0 1 .448 1 1v6c0 .552-.448 1-1 1s-1-.448-1-1v-3.586l-7.293 7.293c-.391.39-1.024.39-1.414 0-.391-.391-.391-1.024 0-1.414l7.293-7.293h-3.586zm-9 2c-.552 0-1 .448-1 1v11c0 .552.448 1 1 1h11c.552 0 1-.448 1-1v-4.563c0-.552.448-1 1-1s1 .448 1 1v4.563c0 1.657-1.343 3-3 3h-11c-1.657 0-3-1.343-3-3v-11c0-1.657 1.343-3 3-3h4.563c.552 0 1 .448 1 1s-.448 1-1 1h-4.563z&#34;/&gt;&lt;/svg&gt;&lt;/a&gt;から、リポジトリをダウンロードする。その中の&lt;code&gt;docker-compose.yml&lt;/code&gt;ファイルを編集していく。&lt;br&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>OpenCTI Connector 実装 by Docker</title>
-      <link>https://www.wiser-blog.com/docs/poc/opencti/connector/</link>
+      <link>http://localhost:1313/docs/poc/opencti/connector/</link>
       <pubDate>Tue, 03 Jun 2025 01:45:04 +0900</pubDate>
-      <guid>https://www.wiser-blog.com/docs/poc/opencti/connector/</guid>
-      <description>&lt;br&gt;&#xA;&lt;h2 id=&#34;概要&#34;&gt;概要 &lt;a href=&#34;#%e6%a6%82%e8%a6%81&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;&lt;i class=&#34;material-icons align-middle&#34;&gt;link&lt;/i&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;OpenCTIへ簡単に脅威情報を&lt;strong&gt;インポート&lt;/strong&gt;、データ拡充（&lt;strong&gt;エンリッチメント&lt;/strong&gt;という）、または&lt;strong&gt;エクスポート&lt;/strong&gt;を可能とする。&lt;br&gt;&#xA;機能に応じて、主には以下の通りに大別される。&lt;br&gt;&#xA;&#xA;&#xA;&#xA;&lt;figure&gt;&#xA;  &lt;img src=&#34;https://www.wiser-blog.com/docs-images/PoC/opencti/20250603_connector_1.jpg&#34; alt=&#34;図. コネクター概要図&#34; loading=&#34;lazy&#34; style=&#34;max-width: 100%; height: auto;&#34;&gt;&#xA;  &#xA;    &lt;figcaption style=&#34;font-size: 1em;&#34;&gt;図. コネクター概要図&lt;/figcaption&gt;&#xA;  &#xA;&lt;/figure&gt;&#xA;&lt;/p&gt;&#xA;&lt;h2 id=&#34;各種コネクターの説明&#34;&gt;各種コネクターの説明 &lt;a href=&#34;#%e5%90%84%e7%a8%ae%e3%82%b3%e3%83%8d%e3%82%af%e3%82%bf%e3%83%bc%e3%81%ae%e8%aa%ac%e6%98%8e&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;&lt;i class=&#34;material-icons align-middle&#34;&gt;link&lt;/i&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;h3 id=&#34;１import&#34;&gt;１．Import &lt;a href=&#34;#%ef%bc%91import&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;&lt;i class=&#34;material-icons align-middle&#34;&gt;link&lt;/i&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;これらのコネクタは、外部の組織/アプリケーション/サービスから&lt;strong&gt;自動で取得&lt;/strong&gt;し、STIX2.1にバンドルする。&lt;br&gt;&#xA;Workerを利用して、それらをOpenCTIにインポートする。&lt;br&gt;&#xA;&#xA;&lt;div class=&#34;alert alert-default d-flex&#34; role=&#34;alert&#34;&gt;&#xA;  &lt;div class=&#34;flex-shrink-1 alert-icon&#34;&gt;&#xA;  &#xA;  &lt;span class=&#34;material-icons size-20 me-2&#34;&gt;&#xA;  notifications&#xA;  &lt;/span&gt;&lt;/div&gt;&#xA;  &#xA;  &#xA;  &lt;div class=&#34;w-100&#34;&gt;&#xA;  &#xA;本ページでは、この実装に関して説明します。&#xA;&#x9;&#xA;  &lt;/div&gt;&#xA;  &lt;/div&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;h3 id=&#34;２enrichment&#34;&gt;２．Enrichment &lt;a href=&#34;#%ef%bc%92enrichment&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;&lt;i class=&#34;material-icons align-middle&#34;&gt;link&lt;/i&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;新しいオブジェクトが生成された際に、関連する情報をインターネットから収集してデータをエンリッチメントできる。&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;h3 id=&#34;３stream&#34;&gt;３．Stream &lt;a href=&#34;#%ef%bc%93stream&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;&lt;i class=&#34;material-icons align-middle&#34;&gt;link&lt;/i&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;OpenCTIデータを取り込んで、SIEM, XDR, EDRといったサードパーティプラットフォームに挿入する。&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;h3 id=&#34;４import-files&#34;&gt;４．Import Files &lt;a href=&#34;#%ef%bc%94import-files&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;&lt;i class=&#34;material-icons align-middle&#34;&gt;link&lt;/i&gt;&lt;/a&gt;&lt;/h3&gt;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;h3 id=&#34;５export-files&#34;&gt;５．Export Files &lt;a href=&#34;#%ef%bc%95export-files&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;&lt;i class=&#34;material-icons align-middle&#34;&gt;link&lt;/i&gt;&lt;/a&gt;&lt;/h3&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;br&gt;&#xA;&lt;h2 id=&#34;コネクターの追加方法&#34;&gt;コネクターの追加方法 &lt;a href=&#34;#%e3%82%b3%e3%83%8d%e3%82%af%e3%82%bf%e3%83%bc%e3%81%ae%e8%bf%bd%e5%8a%a0%e6%96%b9%e6%b3%95&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;&lt;i class=&#34;material-icons align-middle&#34;&gt;link&lt;/i&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Dockerを利用した、コネクターの追加方法を記載する。&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;h3 id=&#34;１エコシステム用のサイトから追加したいコネクタを探す&#34;&gt;１．エコシステム用のサイトから、追加したいコネクタを探す &lt;a href=&#34;#%ef%bc%91%e3%82%a8%e3%82%b3%e3%82%b7%e3%82%b9%e3%83%86%e3%83%a0%e7%94%a8%e3%81%ae%e3%82%b5%e3%82%a4%e3%83%88%e3%81%8b%e3%82%89%e8%bf%bd%e5%8a%a0%e3%81%97%e3%81%9f%e3%81%84%e3%82%b3%e3%83%8d%e3%82%af%e3%82%bf%e3%82%92%e6%8e%a2%e3%81%99&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;&lt;i class=&#34;material-icons align-middle&#34;&gt;link&lt;/i&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://filigran.notion.site/OpenCTI-Ecosystem-868329e9fb734fca89692b2ed6087e76&#34; rel=&#34;external&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;エコシステム&lt;/strong&gt;&lt;svg width=&#34;16&#34; height=&#34;16&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path fill=&#34;currentColor&#34; d=&#34;M14 5c-.552 0-1-.448-1-1s.448-1 1-1h6c.552 0 1 .448 1 1v6c0 .552-.448 1-1 1s-1-.448-1-1v-3.586l-7.293 7.293c-.391.39-1.024.39-1.414 0-.391-.391-.391-1.024 0-1.414l7.293-7.293h-3.586zm-9 2c-.552 0-1 .448-1 1v11c0 .552.448 1 1 1h11c.552 0 1-.448 1-1v-4.563c0-.552.448-1 1-1s1 .448 1 1v4.563c0 1.657-1.343 3-3 3h-11c-1.657 0-3-1.343-3-3v-11c0-1.657 1.343-3 3-3h4.563c.552 0 1 .448 1 1s-.448 1-1 1h-4.563z&#34;/&gt;&lt;/svg&gt;&lt;/a&gt;と呼ばれる、簡単に実装できるテンプレートのようなものがある。&lt;/li&gt;&#xA;&lt;li&gt;公式docsでは、エコシステムについて以下のような説明がある。&lt;br&gt;&#xA;&lt;br&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;OpenCTIはオープンでモジュール化されたプラットフォームです。&lt;br&gt;&#xA;Filigranとコミュニティによって、数多くのコネクタ、プラグイン、クライアント、コンテンツが作成されています。&lt;/p&gt;</description>
+      <guid>http://localhost:1313/docs/poc/opencti/connector/</guid>
+      <description>&lt;br&gt;&#xA;&lt;h2 id=&#34;概要&#34;&gt;概要 &lt;a href=&#34;#%e6%a6%82%e8%a6%81&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;&lt;i class=&#34;material-icons align-middle&#34;&gt;link&lt;/i&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;OpenCTIへ簡単に脅威情報を&lt;strong&gt;インポート&lt;/strong&gt;、データ拡充（&lt;strong&gt;エンリッチメント&lt;/strong&gt;という）、または&lt;strong&gt;エクスポート&lt;/strong&gt;を可能とする。&lt;br&gt;&#xA;機能に応じて、主には以下の通りに大別される。&lt;br&gt;&#xA;&#xA;&#xA;&#xA;&lt;figure&gt;&#xA;  &lt;img src=&#34;http://localhost:1313/docs-images/PoC/opencti/20250603_connector_1.jpg&#34; alt=&#34;図. コネクター概要図&#34; loading=&#34;lazy&#34; style=&#34;max-width: 100%; height: auto;&#34;&gt;&#xA;  &#xA;    &lt;figcaption style=&#34;font-size: 1em;&#34;&gt;図. コネクター概要図&lt;/figcaption&gt;&#xA;  &#xA;&lt;/figure&gt;&#xA;&lt;/p&gt;&#xA;&lt;h2 id=&#34;各種コネクターの説明&#34;&gt;各種コネクターの説明 &lt;a href=&#34;#%e5%90%84%e7%a8%ae%e3%82%b3%e3%83%8d%e3%82%af%e3%82%bf%e3%83%bc%e3%81%ae%e8%aa%ac%e6%98%8e&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;&lt;i class=&#34;material-icons align-middle&#34;&gt;link&lt;/i&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;h3 id=&#34;１import&#34;&gt;１．Import &lt;a href=&#34;#%ef%bc%91import&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;&lt;i class=&#34;material-icons align-middle&#34;&gt;link&lt;/i&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;これらのコネクタは、外部の組織/アプリケーション/サービスから&lt;strong&gt;自動で取得&lt;/strong&gt;し、STIX2.1にバンドルする。&lt;br&gt;&#xA;Workerを利用して、それらをOpenCTIにインポートする。&lt;br&gt;&#xA;&#xA;&lt;div class=&#34;alert alert-default d-flex&#34; role=&#34;alert&#34;&gt;&#xA;  &lt;div class=&#34;flex-shrink-1 alert-icon&#34;&gt;&#xA;  &#xA;  &lt;span class=&#34;material-icons size-20 me-2&#34;&gt;&#xA;  notifications&#xA;  &lt;/span&gt;&lt;/div&gt;&#xA;  &#xA;  &#xA;  &lt;div class=&#34;w-100&#34;&gt;&#xA;  &#xA;本ページでは、この実装に関して説明します。&#xA;&#x9;&#xA;  &lt;/div&gt;&#xA;  &lt;/div&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;h3 id=&#34;２enrichment&#34;&gt;２．Enrichment &lt;a href=&#34;#%ef%bc%92enrichment&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;&lt;i class=&#34;material-icons align-middle&#34;&gt;link&lt;/i&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;新しいオブジェクトが生成された際に、関連する情報をインターネットから収集してデータをエンリッチメントできる。&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;h3 id=&#34;３stream&#34;&gt;３．Stream &lt;a href=&#34;#%ef%bc%93stream&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;&lt;i class=&#34;material-icons align-middle&#34;&gt;link&lt;/i&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;OpenCTIデータを取り込んで、SIEM, XDR, EDRといったサードパーティプラットフォームに挿入する。&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;h3 id=&#34;４import-files&#34;&gt;４．Import Files &lt;a href=&#34;#%ef%bc%94import-files&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;&lt;i class=&#34;material-icons align-middle&#34;&gt;link&lt;/i&gt;&lt;/a&gt;&lt;/h3&gt;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;h3 id=&#34;５export-files&#34;&gt;５．Export Files &lt;a href=&#34;#%ef%bc%95export-files&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;&lt;i class=&#34;material-icons align-middle&#34;&gt;link&lt;/i&gt;&lt;/a&gt;&lt;/h3&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;br&gt;&#xA;&lt;h2 id=&#34;コネクターの追加方法&#34;&gt;コネクターの追加方法 &lt;a href=&#34;#%e3%82%b3%e3%83%8d%e3%82%af%e3%82%bf%e3%83%bc%e3%81%ae%e8%bf%bd%e5%8a%a0%e6%96%b9%e6%b3%95&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;&lt;i class=&#34;material-icons align-middle&#34;&gt;link&lt;/i&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Dockerを利用した、コネクターの追加方法を記載する。&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;h3 id=&#34;１エコシステム用のサイトから追加したいコネクタを探す&#34;&gt;１．エコシステム用のサイトから、追加したいコネクタを探す &lt;a href=&#34;#%ef%bc%91%e3%82%a8%e3%82%b3%e3%82%b7%e3%82%b9%e3%83%86%e3%83%a0%e7%94%a8%e3%81%ae%e3%82%b5%e3%82%a4%e3%83%88%e3%81%8b%e3%82%89%e8%bf%bd%e5%8a%a0%e3%81%97%e3%81%9f%e3%81%84%e3%82%b3%e3%83%8d%e3%82%af%e3%82%bf%e3%82%92%e6%8e%a2%e3%81%99&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;&lt;i class=&#34;material-icons align-middle&#34;&gt;link&lt;/i&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://filigran.notion.site/OpenCTI-Ecosystem-868329e9fb734fca89692b2ed6087e76&#34; rel=&#34;external&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;エコシステム&lt;/strong&gt;&lt;svg width=&#34;16&#34; height=&#34;16&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path fill=&#34;currentColor&#34; d=&#34;M14 5c-.552 0-1-.448-1-1s.448-1 1-1h6c.552 0 1 .448 1 1v6c0 .552-.448 1-1 1s-1-.448-1-1v-3.586l-7.293 7.293c-.391.39-1.024.39-1.414 0-.391-.391-.391-1.024 0-1.414l7.293-7.293h-3.586zm-9 2c-.552 0-1 .448-1 1v11c0 .552.448 1 1 1h11c.552 0 1-.448 1-1v-4.563c0-.552.448-1 1-1s1 .448 1 1v4.563c0 1.657-1.343 3-3 3h-11c-1.657 0-3-1.343-3-3v-11c0-1.657 1.343-3 3-3h4.563c.552 0 1 .448 1 1s-.448 1-1 1h-4.563z&#34;/&gt;&lt;/svg&gt;&lt;/a&gt;と呼ばれる、簡単に実装できるテンプレートのようなものがある。&lt;/li&gt;&#xA;&lt;li&gt;公式docsでは、エコシステムについて以下のような説明がある。&lt;br&gt;&#xA;&lt;br&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;OpenCTIはオープンでモジュール化されたプラットフォームです。&lt;br&gt;&#xA;Filigranとコミュニティによって、数多くのコネクタ、プラグイン、クライアント、コンテンツが作成されています。&lt;/p&gt;</description>
     </item>
     <item>
-      <title>台湾軍サイバー攻撃と中国、20人を指名手配 - nna.jp</title>
-      <link>https://www.wiser-blog.com/news/security-news/security-news_20250606001516/</link>
-      <pubDate>Fri, 06 Jun 2025 00:15:16 +0900</pubDate>
-      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250606001516/</guid>
+      <title>1億5000万円以上だまし取られる詐欺被害 愛知県岡崎市の男性（60代）にNPO法人を名乗る男「ランサムウエアに感染している」などとうその電話 - au Webポータル</title>
+      <link>http://localhost:1313/news/security-news/security-news_20250607003008/</link>
+      <pubDate>Sat, 07 Jun 2025 00:30:08 +0900</pubDate>
+      <guid>http://localhost:1313/news/security-news/security-news_20250607003008/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>1億5000万円以上だまし取られる詐欺被害 愛知県岡崎市の男性（60代）にNPO法人を名乗る男「ランサムウエアに感染している」などとうその電話 - 日テレNEWS NNN</title>
+      <link>http://localhost:1313/news/security-news/security-news_20250607001507/</link>
+      <pubDate>Sat, 07 Jun 2025 00:15:07 +0900</pubDate>
+      <guid>http://localhost:1313/news/security-news/security-news_20250607001507/</guid>
       <description></description>
     </item>
     <item>
       <title>セキュリティインシデント発生時の対応を支援する「インシデント対応支援サービス」を提供開始：マピオンニュースの注目トピック - マピオン</title>
-      <link>https://www.wiser-blog.com/news/security-news/security-news_20250605230008/</link>
+      <link>http://localhost:1313/news/security-news/security-news_20250607000009/</link>
+      <pubDate>Sat, 07 Jun 2025 00:00:09 +0900</pubDate>
+      <guid>http://localhost:1313/news/security-news/security-news_20250607000009/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ランサムウェア感染後に「システムを完全復旧できなかった」企業が7割を超える──ITR調査 - EnterpriseZine</title>
+      <link>http://localhost:1313/news/security-news/security-news_20250606201509/</link>
+      <pubDate>Fri, 06 Jun 2025 20:15:09 +0900</pubDate>
+      <guid>http://localhost:1313/news/security-news/security-news_20250606201509/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>デジタルハリウッド大学にて特別講義「サイバー攻撃事例特集」を実施 - PR TIMES</title>
+      <link>http://localhost:1313/news/security-news/security-news_20250606200009/</link>
+      <pubDate>Fri, 06 Jun 2025 20:00:09 +0900</pubDate>
+      <guid>http://localhost:1313/news/security-news/security-news_20250606200009/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>台湾の取引所Bitopro、1100万ドル相当のハッキング被害を認める - Yahoo!ファイナンス</title>
+      <link>http://localhost:1313/news/security-news/security-news_20250606183007/</link>
+      <pubDate>Fri, 06 Jun 2025 18:30:07 +0900</pubDate>
+      <guid>http://localhost:1313/news/security-news/security-news_20250606183007/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>すかいらーく 不正アクセス被害の持ち帰りサイトを再開 - 日本経済新聞</title>
+      <link>http://localhost:1313/news/security-news/security-news_20250606174505/</link>
+      <pubDate>Fri, 06 Jun 2025 17:45:05 +0900</pubDate>
+      <guid>http://localhost:1313/news/security-news/security-news_20250606174505/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>「ランサムウェアに感染」などとウソ…メールきっかけに60代男性が1億5千万円超の詐欺被害 金融機関が不審に思い発覚 - goo ニュース</title>
+      <link>http://localhost:1313/news/security-news/security-news_20250606173006/</link>
+      <pubDate>Fri, 06 Jun 2025 17:30:06 +0900</pubDate>
+      <guid>http://localhost:1313/news/security-news/security-news_20250606173006/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>「ランサムウェアに感染」などとウソ…メールきっかけに60代男性が1億5千万円超の詐欺被害 金融機関が不審に思い発覚 - Yahoo!ニュース</title>
+      <link>http://localhost:1313/news/security-news/security-news_20250606173005/</link>
+      <pubDate>Fri, 06 Jun 2025 17:30:05 +0900</pubDate>
+      <guid>http://localhost:1313/news/security-news/security-news_20250606173005/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>「スマホがランサムウェアに感染している」60代男性 約1億5000万円だまし取られる 約150回にわたり現金を指定された口座に… 愛知･岡崎市 | 名古屋・愛知・岐阜・三重のニュース【CBC news】 | CBC web - TBS NEWS DIG</title>
+      <link>http://localhost:1313/news/security-news/security-news_20250606170007/</link>
+      <pubDate>Fri, 06 Jun 2025 17:00:07 +0900</pubDate>
+      <guid>http://localhost:1313/news/security-news/security-news_20250606170007/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>能力評価試験のインシデント：試験監督者が警鐘を聞き間違える - Vietnam.vn</title>
+      <link>http://localhost:1313/news/security-news/security-news_20250606153007/</link>
+      <pubDate>Fri, 06 Jun 2025 15:30:07 +0900</pubDate>
+      <guid>http://localhost:1313/news/security-news/security-news_20250606153007/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hitachi Energy製IEC 61850 MMS-Serverにおけるリソースの不適切なシャットダウンまたはリリースの脆弱性</title>
+      <link>http://localhost:1313/news/vulnerability-news/vulnerability-news_20250606150012/</link>
+      <pubDate>Fri, 06 Jun 2025 15:00:12 +0900</pubDate>
+      <guid>http://localhost:1313/news/vulnerability-news/vulnerability-news_20250606150012/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>複数のHitachi Energy製品における複数の脆弱性</title>
+      <link>http://localhost:1313/news/vulnerability-news/vulnerability-news_20250606144509/</link>
+      <pubDate>Fri, 06 Jun 2025 14:45:09 +0900</pubDate>
+      <guid>http://localhost:1313/news/vulnerability-news/vulnerability-news_20250606144509/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>マルウェア入りAndroid端末が数百万台流通、FBIが対策を要請 - マイナビニュース</title>
+      <link>http://localhost:1313/news/malware-news/malware-news_20250606141520/</link>
+      <pubDate>Fri, 06 Jun 2025 14:15:20 +0900</pubDate>
+      <guid>http://localhost:1313/news/malware-news/malware-news_20250606141520/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>シスコの複数製品に緊急の脆弱性、直ちに確認とアップデートを - マイナビニュース</title>
+      <link>http://localhost:1313/news/vulnerability-news/vulnerability-news_20250606130007/</link>
+      <pubDate>Fri, 06 Jun 2025 13:00:07 +0900</pubDate>
+      <guid>http://localhost:1313/news/vulnerability-news/vulnerability-news_20250606130007/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>証券口座への不正アクセス急増。被害金額は直近3カ月で5千億円超 - PC Watch</title>
+      <link>http://localhost:1313/news/security-news/security-news_20250606123005/</link>
+      <pubDate>Fri, 06 Jun 2025 12:30:05 +0900</pubDate>
+      <guid>http://localhost:1313/news/security-news/security-news_20250606123005/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>複数のi-PRO製監視カメラにおけるクロスサイトリクエストフォージェリの脆弱性</title>
+      <link>http://localhost:1313/news/vulnerability-news/vulnerability-news_20250606121558/</link>
+      <pubDate>Fri, 06 Jun 2025 12:15:58 +0900</pubDate>
+      <guid>http://localhost:1313/news/vulnerability-news/vulnerability-news_20250606121558/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>巧妙化するサイバー攻撃から重要データを守る、情報セキュリティー6つの注目技術 - 日経クロステック</title>
+      <link>http://localhost:1313/news/security-news/security-news_20250606121507/</link>
+      <pubDate>Fri, 06 Jun 2025 12:15:07 +0900</pubDate>
+      <guid>http://localhost:1313/news/security-news/security-news_20250606121507/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>PathWiper攻撃がウクライナ重要インフラを襲撃 – Cisco Talosが新型ワイパーマルウェアの脅威を警告 - innovaTopia</title>
+      <link>http://localhost:1313/news/malware-news/malware-news_20250606093107/</link>
+      <pubDate>Fri, 06 Jun 2025 09:31:07 +0900</pubDate>
+      <guid>http://localhost:1313/news/malware-news/malware-news_20250606093107/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Microsoft、欧州に対する無償のサイバーセキュリティ支援策を発表 - マイナビニュース</title>
+      <link>http://localhost:1313/news/security-news/security-news_20250606093017/</link>
+      <pubDate>Fri, 06 Jun 2025 09:30:17 +0900</pubDate>
+      <guid>http://localhost:1313/news/security-news/security-news_20250606093017/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>『セキュリティ人材不足でもできるランサム攻撃への即応体制 』というテーマのウェビナーを開催 - PR TIMES</title>
+      <link>http://localhost:1313/news/security-news/security-news_20250606091507/</link>
+      <pubDate>Fri, 06 Jun 2025 09:15:07 +0900</pubDate>
+      <guid>http://localhost:1313/news/security-news/security-news_20250606091507/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>サイバーセキュリティのMorphisec、ランサムウェアとデータ漏洩を防ぐ新ソリューション「Exfiltration Prevention」を発表 - AT PARTNERS</title>
+      <link>http://localhost:1313/news/security-news/security-news_20250606090016/</link>
+      <pubDate>Fri, 06 Jun 2025 09:00:16 +0900</pubDate>
+      <guid>http://localhost:1313/news/security-news/security-news_20250606090016/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>サイバーセキュリティのCardinalOps、企業SIEMがサイバー攻撃手法の79％を見逃していると最新レポートで指摘 - AT PARTNERS</title>
+      <link>http://localhost:1313/news/security-news/security-news_20250606084506/</link>
+      <pubDate>Fri, 06 Jun 2025 08:45:06 +0900</pubDate>
+      <guid>http://localhost:1313/news/security-news/security-news_20250606084506/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Salesforceの顧客情報狙うサイバー攻撃、Googleが注意喚起 - マイナビニュース</title>
+      <link>http://localhost:1313/news/security-news/security-news_20250606083006/</link>
+      <pubDate>Fri, 06 Jun 2025 08:30:06 +0900</pubDate>
+      <guid>http://localhost:1313/news/security-news/security-news_20250606083006/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>エヌ・デーソフトウェアのメールアカウントに不正アクセス、英文の迷惑メール送信 - ScanNetSecurity</title>
+      <link>http://localhost:1313/news/security-news/security-news_20250606081507/</link>
+      <pubDate>Fri, 06 Jun 2025 08:15:07 +0900</pubDate>
+      <guid>http://localhost:1313/news/security-news/security-news_20250606081507/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>マルコもレース終盤のフェルスタッペンに困惑。過去のインシデントや誤った決断により「感情に飲まれてしまった」 - au Webポータル</title>
+      <link>http://localhost:1313/news/security-news/security-news_20250606073008/</link>
+      <pubDate>Fri, 06 Jun 2025 07:30:08 +0900</pubDate>
+      <guid>http://localhost:1313/news/security-news/security-news_20250606073008/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>マルコもレース終盤のフェルスタッペンに困惑。過去のインシデントや誤った決断により「感情に飲まれてしまった」 - ｄメニューニュース</title>
+      <link>http://localhost:1313/news/security-news/security-news_20250606071508/</link>
+      <pubDate>Fri, 06 Jun 2025 07:15:08 +0900</pubDate>
+      <guid>http://localhost:1313/news/security-news/security-news_20250606071508/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>マルコもレース終盤のフェルスタッペンに困惑。過去のインシデントや誤った決断により「感情に飲まれてしまった」 - carview!</title>
+      <link>http://localhost:1313/news/security-news/security-news_20250606070011/</link>
+      <pubDate>Fri, 06 Jun 2025 07:00:11 +0900</pubDate>
+      <guid>http://localhost:1313/news/security-news/security-news_20250606070011/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>台湾軍サイバー攻撃と中国、20人を指名手配 - nna.jp</title>
+      <link>http://localhost:1313/news/security-news/security-news_20250606001516/</link>
+      <pubDate>Fri, 06 Jun 2025 00:15:16 +0900</pubDate>
+      <guid>http://localhost:1313/news/security-news/security-news_20250606001516/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>セキュリティインシデント発生時の対応を支援する「インシデント対応支援サービス」を提供開始：マピオンニュースの注目トピック - マピオン</title>
+      <link>http://localhost:1313/news/security-news/security-news_20250605230008/</link>
       <pubDate>Thu, 05 Jun 2025 23:00:08 +0900</pubDate>
-      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250605230008/</guid>
+      <guid>http://localhost:1313/news/security-news/security-news_20250605230008/</guid>
       <description></description>
     </item>
     <item>
       <title>企業情報セキュリティの実態と今後のセキュリティ統制、AI活用の展望 - nri.com</title>
-      <link>https://www.wiser-blog.com/news/security-news/security-news_20250605214506/</link>
+      <link>http://localhost:1313/news/security-news/security-news_20250605214506/</link>
       <pubDate>Thu, 05 Jun 2025 21:45:06 +0900</pubDate>
-      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250605214506/</guid>
+      <guid>http://localhost:1313/news/security-news/security-news_20250605214506/</guid>
       <description></description>
     </item>
     <item>
       <title>中国警察、台湾軍がサイバー攻撃 20人を指名手配 - 日本経済新聞</title>
-      <link>https://www.wiser-blog.com/news/security-news/security-news_20250605203010/</link>
+      <link>http://localhost:1313/news/security-news/security-news_20250605203010/</link>
       <pubDate>Thu, 05 Jun 2025 20:30:10 +0900</pubDate>
-      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250605203010/</guid>
+      <guid>http://localhost:1313/news/security-news/security-news_20250605203010/</guid>
       <description></description>
     </item>
     <item>
       <title>アニメ「鬼滅の刃」制作会社に大規模不正アクセス 公式店舗でトラブルに - ASCII.jp</title>
-      <link>https://www.wiser-blog.com/news/security-news/security-news_20250604173013/</link>
+      <link>http://localhost:1313/news/security-news/security-news_20250604173013/</link>
       <pubDate>Wed, 04 Jun 2025 17:30:13 +0900</pubDate>
-      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250604173013/</guid>
+      <guid>http://localhost:1313/news/security-news/security-news_20250604173013/</guid>
       <description></description>
     </item>
     <item>
       <title>政府が最近、SKテレコムで発生したハッキング事態と関連し、情報通信技術(ICT)業界を対象にセキュリティ点検を続けている。 その結果、KTとLGユープラスではセキュリティ上の特異点を発見できなかった。 - 매일경제</title>
-      <link>https://www.wiser-blog.com/news/security-news/security-news_20250604143007/</link>
+      <link>http://localhost:1313/news/security-news/security-news_20250604143007/</link>
       <pubDate>Wed, 04 Jun 2025 14:30:07 +0900</pubDate>
-      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250604143007/</guid>
+      <guid>http://localhost:1313/news/security-news/security-news_20250604143007/</guid>
       <description></description>
     </item>
     <item>
       <title>リョーサン菱洋HD、ホームページのRSS機能に不正アクセス-不審情報配信で注意喚起 - 合同会社ロケットボーイズ</title>
-      <link>https://www.wiser-blog.com/news/security-news/security-news_20250604141508/</link>
+      <link>http://localhost:1313/news/security-news/security-news_20250604141508/</link>
       <pubDate>Wed, 04 Jun 2025 14:15:08 +0900</pubDate>
-      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250604141508/</guid>
+      <guid>http://localhost:1313/news/security-news/security-news_20250604141508/</guid>
       <description></description>
     </item>
     <item>
       <title>オーストラリア、ランサムウェア身代金支払い後の報告を義務化 - 株式会社マキナレコード</title>
-      <link>https://www.wiser-blog.com/news/security-news/security-news_20250604131517/</link>
+      <link>http://localhost:1313/news/security-news/security-news_20250604131517/</link>
       <pubDate>Wed, 04 Jun 2025 13:15:17 +0900</pubDate>
-      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250604131517/</guid>
+      <guid>http://localhost:1313/news/security-news/security-news_20250604131517/</guid>
       <description></description>
     </item>
     <item>
       <title>山形大学、付属中学でサポート詐欺による不正アクセスで個人情報漏洩の可能性-2025年2回目のインシデント - 合同会社ロケットボーイズ</title>
-      <link>https://www.wiser-blog.com/news/security-news/security-news_20250604111508/</link>
+      <link>http://localhost:1313/news/security-news/security-news_20250604111508/</link>
       <pubDate>Wed, 04 Jun 2025 11:15:08 +0900</pubDate>
-      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250604111508/</guid>
+      <guid>http://localhost:1313/news/security-news/security-news_20250604111508/</guid>
       <description></description>
     </item>
     <item>
       <title>テリロジーHD---コンステラセキュリティジャパン、Filigranの脅威インテリジェンス分析基盤を日本市場に導入 - 株探</title>
-      <link>https://www.wiser-blog.com/news/security-news/security-news_20250604110016/</link>
+      <link>http://localhost:1313/news/security-news/security-news_20250604110016/</link>
       <pubDate>Wed, 04 Jun 2025 11:00:16 +0900</pubDate>
-      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250604110016/</guid>
+      <guid>http://localhost:1313/news/security-news/security-news_20250604110016/</guid>
       <description></description>
     </item>
     <item>
       <title>「広範囲で執拗、かつテスト的」──年末年始のDDoS攻撃、有識者はどう見る - ITmedia</title>
-      <link>https://www.wiser-blog.com/news/security-news/security-news_20250604101512/</link>
+      <link>http://localhost:1313/news/security-news/security-news_20250604101512/</link>
       <pubDate>Wed, 04 Jun 2025 10:15:12 +0900</pubDate>
-      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250604101512/</guid>
+      <guid>http://localhost:1313/news/security-news/security-news_20250604101512/</guid>
       <description></description>
     </item>
     <item>
       <title>日本ジッコウにランサムウェア攻撃、複数サーバと端末内のデータが暗号化 - ScanNetSecurity</title>
-      <link>https://www.wiser-blog.com/news/security-news/security-news_20250604083005/</link>
+      <link>http://localhost:1313/news/security-news/security-news_20250604083005/</link>
       <pubDate>Wed, 04 Jun 2025 08:30:05 +0900</pubDate>
-      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250604083005/</guid>
+      <guid>http://localhost:1313/news/security-news/security-news_20250604083005/</guid>
       <description></description>
     </item>
     <item>
       <title>The North Face(ザ・ノース・フェイス)、4月のECサイトへのサイバー攻撃で個人情報閲覧の可能性 - 合同会社ロケットボーイズ</title>
-      <link>https://www.wiser-blog.com/news/security-news/security-news_20250604081507/</link>
+      <link>http://localhost:1313/news/security-news/security-news_20250604081507/</link>
       <pubDate>Wed, 04 Jun 2025 08:15:07 +0900</pubDate>
-      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250604081507/</guid>
+      <guid>http://localhost:1313/news/security-news/security-news_20250604081507/</guid>
       <description></description>
     </item>
     <item>
       <title>ハッカーを支援するマルウェアの“検出回避”サービスを摘発-オランダ・米国|セキュリティニュース - 合同会社ロケットボーイズ</title>
-      <link>https://www.wiser-blog.com/news/security-news/security-news_20250604074512/</link>
+      <link>http://localhost:1313/news/security-news/security-news_20250604074512/</link>
       <pubDate>Wed, 04 Jun 2025 07:45:12 +0900</pubDate>
-      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250604074512/</guid>
+      <guid>http://localhost:1313/news/security-news/security-news_20250604074512/</guid>
       <description></description>
     </item>
     <item>
       <title>Google Chromeに脆弱性、ゼロデイ攻撃の危険性 - アップデートを - マイナビニュース</title>
-      <link>https://www.wiser-blog.com/news/vulnerability-news/vulnerability-news_20250604073007/</link>
+      <link>http://localhost:1313/news/vulnerability-news/vulnerability-news_20250604073007/</link>
       <pubDate>Wed, 04 Jun 2025 07:30:07 +0900</pubDate>
-      <guid>https://www.wiser-blog.com/news/vulnerability-news/vulnerability-news_20250604073007/</guid>
+      <guid>http://localhost:1313/news/vulnerability-news/vulnerability-news_20250604073007/</guid>
       <description></description>
     </item>
     <item>
       <title>ケイ・オール、3月に発生した不正アクセスの続報を発表 -メール配信エンジン経由で個人情報流出の可能性|セキュリティニュース - 合同会社ロケットボーイズ</title>
-      <link>https://www.wiser-blog.com/news/security-news/security-news_20250604071508/</link>
+      <link>http://localhost:1313/news/security-news/security-news_20250604071508/</link>
       <pubDate>Wed, 04 Jun 2025 07:15:08 +0900</pubDate>
-      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250604071508/</guid>
+      <guid>http://localhost:1313/news/security-news/security-news_20250604071508/</guid>
       <description></description>
     </item>
     <item>
       <title>認証情報窃取が拡大 IBM、サイバー攻撃調査 - 電波新聞デジタル</title>
-      <link>https://www.wiser-blog.com/news/security-news/security-news_20250604051511/</link>
+      <link>http://localhost:1313/news/security-news/security-news_20250604051511/</link>
       <pubDate>Wed, 04 Jun 2025 05:15:11 +0900</pubDate>
-      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250604051511/</guid>
+      <guid>http://localhost:1313/news/security-news/security-news_20250604051511/</guid>
       <description></description>
     </item>
     <item>
       <title>ヴィクトリアズ・シークレット、ITインシデントにもかかわらず第1四半期の業績予想を上回る 執筆 - Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース</title>
-      <link>https://www.wiser-blog.com/news/security-news/security-news_20250603213008/</link>
+      <link>http://localhost:1313/news/security-news/security-news_20250603213008/</link>
       <pubDate>Tue, 03 Jun 2025 21:30:08 +0900</pubDate>
-      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250603213008/</guid>
+      <guid>http://localhost:1313/news/security-news/security-news_20250603213008/</guid>
       <description></description>
     </item>
     <item>
       <title>【山形】山形大学附属中学校で不正アクセス被害「情報流出」の恐れ…中学校が会見 - FNNプライムオンライン</title>
-      <link>https://www.wiser-blog.com/news/security-news/security-news_20250603203007/</link>
+      <link>http://localhost:1313/news/security-news/security-news_20250603203007/</link>
       <pubDate>Tue, 03 Jun 2025 20:30:07 +0900</pubDate>
-      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250603203007/</guid>
+      <guid>http://localhost:1313/news/security-news/security-news_20250603203007/</guid>
       <description></description>
     </item>
     <item>
       <title>グーグル「Chrome」深刻度“高”の脆弱性 今すぐアップデートを - ASCII.jp</title>
-      <link>https://www.wiser-blog.com/news/vulnerability-news/vulnerability-news_20250603170008/</link>
+      <link>http://localhost:1313/news/vulnerability-news/vulnerability-news_20250603170008/</link>
       <pubDate>Tue, 03 Jun 2025 17:00:08 +0900</pubDate>
-      <guid>https://www.wiser-blog.com/news/vulnerability-news/vulnerability-news_20250603170008/</guid>
+      <guid>http://localhost:1313/news/vulnerability-news/vulnerability-news_20250603170008/</guid>
       <description></description>
     </item>
     <item>
       <title>Cartier(カルティエ)、不正アクセスによるサイバー攻撃で個人情報漏洩の可能性|セキュリティとファッションのニュース - 合同会社ロケットボーイズ</title>
-      <link>https://www.wiser-blog.com/news/security-news/security-news_20250603151508/</link>
+      <link>http://localhost:1313/news/security-news/security-news_20250603151508/</link>
       <pubDate>Tue, 03 Jun 2025 15:15:08 +0900</pubDate>
-      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250603151508/</guid>
+      <guid>http://localhost:1313/news/security-news/security-news_20250603151508/</guid>
       <description></description>
     </item>
     <item>
       <title>緊急脆弱性が報告されたActive! mail 6、運用環境へのサイバー攻撃による侵害は確認されず|セキュリティニュース - 合同会社ロケットボーイズ</title>
-      <link>https://www.wiser-blog.com/news/security-news/security-news_20250603144004/</link>
+      <link>http://localhost:1313/news/security-news/security-news_20250603144004/</link>
       <pubDate>Tue, 03 Jun 2025 14:40:04 +0900</pubDate>
-      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250603144004/</guid>
+      <guid>http://localhost:1313/news/security-news/security-news_20250603144004/</guid>
       <description></description>
     </item>
     <item>
       <title>中小企業狙うランサムウェアが増加 十分な対策は困難？課題浮き彫り - 朝日新聞</title>
-      <link>https://www.wiser-blog.com/news/security-news/security-news_20250603122504/</link>
+      <link>http://localhost:1313/news/security-news/security-news_20250603122504/</link>
       <pubDate>Tue, 03 Jun 2025 12:25:04 +0900</pubDate>
-      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250603122504/</guid>
+      <guid>http://localhost:1313/news/security-news/security-news_20250603122504/</guid>
       <description></description>
     </item>
     <item>
       <title>PC Time Tracerにおける不適切なファイルアクセス権設定の脆弱性</title>
-      <link>https://www.wiser-blog.com/news/vulnerability-news/vulnerability-news_20250603121004/</link>
+      <link>http://localhost:1313/news/vulnerability-news/vulnerability-news_20250603121004/</link>
       <pubDate>Tue, 03 Jun 2025 12:10:04 +0900</pubDate>
-      <guid>https://www.wiser-blog.com/news/vulnerability-news/vulnerability-news_20250603121004/</guid>
+      <guid>http://localhost:1313/news/vulnerability-news/vulnerability-news_20250603121004/</guid>
       <description></description>
     </item>
     <item>
       <title>サイバー攻撃を支援する大規模なオンラインサービス押収、米司法省 - マイナビニュース</title>
-      <link>https://www.wiser-blog.com/news/security-news/security-news_20250603105503/</link>
+      <link>http://localhost:1313/news/security-news/security-news_20250603105503/</link>
       <pubDate>Tue, 03 Jun 2025 10:55:03 +0900</pubDate>
-      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250603105503/</guid>
+      <guid>http://localhost:1313/news/security-news/security-news_20250603105503/</guid>
       <description></description>
     </item>
     <item>
       <title>総合医療用品 商社のホスピタルサービスがランサムウェアの被害を報告|セキュリティニュースのセキュリティ対策Lab - 合同会社ロケットボーイズ</title>
-      <link>https://www.wiser-blog.com/news/security-news/security-news_20250603104002/</link>
+      <link>http://localhost:1313/news/security-news/security-news_20250603104002/</link>
       <pubDate>Tue, 03 Jun 2025 10:40:02 +0900</pubDate>
-      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250603104002/</guid>
+      <guid>http://localhost:1313/news/security-news/security-news_20250603104002/</guid>
       <description></description>
     </item>
     <item>
       <title>増加するランサムウェア攻撃やサプライチェーン攻撃。UTMの導入でセキュリティ強化を実現 - マイナビニュース</title>
-      <link>https://www.wiser-blog.com/news/security-news/security-news_20250603101002/</link>
+      <link>http://localhost:1313/news/security-news/security-news_20250603101002/</link>
       <pubDate>Tue, 03 Jun 2025 10:10:02 +0900</pubDate>
-      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250603101002/</guid>
+      <guid>http://localhost:1313/news/security-news/security-news_20250603101002/</guid>
       <description></description>
     </item>
     <item>
       <title>TrickBot・Contiランサムウェア首謀者ヴィタリー・コヴァレフの正体が暴露、匿名告発者「GangExposed」が5億ドル資産も公開 - innovaTopia</title>
-      <link>https://www.wiser-blog.com/news/security-news/security-news_20250603094004/</link>
+      <link>http://localhost:1313/news/security-news/security-news_20250603094004/</link>
       <pubDate>Tue, 03 Jun 2025 09:40:04 +0900</pubDate>
-      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250603094004/</guid>
+      <guid>http://localhost:1313/news/security-news/security-news_20250603094004/</guid>
       <description></description>
     </item>
     <item>
       <title>Apple Safariの脆弱性を悪用するフルスクリーンの中間ブラウザ攻撃|セキュリティニュースのセキュリティ対策 Lab - 合同会社ロケットボーイズ</title>
-      <link>https://www.wiser-blog.com/news/vulnerability-news/vulnerability-news_20250603091002/</link>
+      <link>http://localhost:1313/news/vulnerability-news/vulnerability-news_20250603091002/</link>
       <pubDate>Tue, 03 Jun 2025 09:10:02 +0900</pubDate>
-      <guid>https://www.wiser-blog.com/news/vulnerability-news/vulnerability-news_20250603091002/</guid>
+      <guid>http://localhost:1313/news/vulnerability-news/vulnerability-news_20250603091002/</guid>
       <description></description>
     </item>
     <item>
       <title>暗号資産関連の詐欺、ハッキング、エクスプロイトによる損失額、5月は約430億円：CertiK - Yahoo!ニュース</title>
-      <link>https://www.wiser-blog.com/news/security-news/security-news_20250603085502/</link>
+      <link>http://localhost:1313/news/security-news/security-news_20250603085502/</link>
       <pubDate>Tue, 03 Jun 2025 08:55:02 +0900</pubDate>
-      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250603085502/</guid>
+      <guid>http://localhost:1313/news/security-news/security-news_20250603085502/</guid>
       <description></description>
     </item>
     <item>
       <title>Google Chromeの認証情報盗む新マルウェア、偽CAPTCHAで拡散 - マイナビニュース</title>
-      <link>https://www.wiser-blog.com/news/malware-news/malware-news_20250603082502/</link>
+      <link>http://localhost:1313/news/malware-news/malware-news_20250603082502/</link>
       <pubDate>Tue, 03 Jun 2025 08:25:02 +0900</pubDate>
-      <guid>https://www.wiser-blog.com/news/malware-news/malware-news_20250603082502/</guid>
+      <guid>http://localhost:1313/news/malware-news/malware-news_20250603082502/</guid>
       <description></description>
     </item>
     <item>
       <title>GMOサイバーセキュリティ byイエラエ、ペネトレーションテストのオプションとして「バックドア診断」提供開始 - ScanNetSecurity</title>
-      <link>https://www.wiser-blog.com/news/security-news/security-news_20250603081004/</link>
+      <link>http://localhost:1313/news/security-news/security-news_20250603081004/</link>
       <pubDate>Tue, 03 Jun 2025 08:10:04 +0900</pubDate>
-      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250603081004/</guid>
+      <guid>http://localhost:1313/news/security-news/security-news_20250603081004/</guid>
       <description></description>
     </item>
     <item>
       <title>インシデント数を75％減少、最先端の「SOC」に変革するための5つのステップ - ビジネス&#43;IT</title>
-      <link>https://www.wiser-blog.com/news/security-news/security-news_20250603072510/</link>
+      <link>http://localhost:1313/news/security-news/security-news_20250603072510/</link>
       <pubDate>Tue, 03 Jun 2025 07:25:10 +0900</pubDate>
-      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250603072510/</guid>
+      <guid>http://localhost:1313/news/security-news/security-news_20250603072510/</guid>
       <description></description>
     </item>
     <item>
       <title>ランサム組織の活動実態に迫る・後編 - 日経クロステック</title>
-      <link>https://www.wiser-blog.com/news/security-news/security-news_20250603071009/</link>
+      <link>http://localhost:1313/news/security-news/security-news_20250603071009/</link>
       <pubDate>Tue, 03 Jun 2025 07:10:09 +0900</pubDate>
-      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250603071009/</guid>
+      <guid>http://localhost:1313/news/security-news/security-news_20250603071009/</guid>
       <description></description>
     </item>
     <item>
       <title>ランサム組織の活動実態に迫る・後編 - 日経クロステック</title>
-      <link>https://www.wiser-blog.com/news/security-news/security-news_20250603071008/</link>
+      <link>http://localhost:1313/news/security-news/security-news_20250603071008/</link>
       <pubDate>Tue, 03 Jun 2025 07:10:08 +0900</pubDate>
-      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250603071008/</guid>
+      <guid>http://localhost:1313/news/security-news/security-news_20250603071008/</guid>
       <description></description>
     </item>
     <item>
       <title>不正アクセス被害のアクリル運動部が8つの再発防止策、進捗を報告 - 日経クロステック</title>
-      <link>https://www.wiser-blog.com/news/security-news/security-news_20250603051009/</link>
+      <link>http://localhost:1313/news/security-news/security-news_20250603051009/</link>
       <pubDate>Tue, 03 Jun 2025 05:10:09 +0900</pubDate>
-      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250603051009/</guid>
+      <guid>http://localhost:1313/news/security-news/security-news_20250603051009/</guid>
       <description></description>
     </item>
     <item>
       <title>台湾の取引所BitoProが1100万ドル相当のハッキング被害を受けた可能性：ZachXBT氏が指摘 - Yahoo!ニュース</title>
-      <link>https://www.wiser-blog.com/news/security-news/security-news_20250602191002/</link>
+      <link>http://localhost:1313/news/security-news/security-news_20250602191002/</link>
       <pubDate>Mon, 02 Jun 2025 19:10:02 +0900</pubDate>
-      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250602191002/</guid>
+      <guid>http://localhost:1313/news/security-news/security-news_20250602191002/</guid>
       <description></description>
     </item>
     <item>
       <title>三菱電機製MELSEC iQ-F CPUユニットにおける入力値の不適切な検証に関する脆弱性</title>
-      <link>https://www.wiser-blog.com/news/vulnerability-news/vulnerability-news_20250602164004/</link>
+      <link>http://localhost:1313/news/vulnerability-news/vulnerability-news_20250602164004/</link>
       <pubDate>Mon, 02 Jun 2025 16:40:04 +0900</pubDate>
-      <guid>https://www.wiser-blog.com/news/vulnerability-news/vulnerability-news_20250602164004/</guid>
+      <guid>http://localhost:1313/news/vulnerability-news/vulnerability-news_20250602164004/</guid>
       <description></description>
     </item>
     <item>
       <title>ビル制御統合システム・サイバー攻撃対策サービス提供 パナソニック - 住宅新報web</title>
-      <link>https://www.wiser-blog.com/news/security-news/security-news_20250602161002/</link>
+      <link>http://localhost:1313/news/security-news/security-news_20250602161002/</link>
       <pubDate>Mon, 02 Jun 2025 16:10:02 +0900</pubDate>
-      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250602161002/</guid>
+      <guid>http://localhost:1313/news/security-news/security-news_20250602161002/</guid>
       <description></description>
     </item>
     <item>
       <title>日本触媒、グループの不正アクセス 被害を発表|セキュリティニュース - 合同会社ロケットボーイズ</title>
-      <link>https://www.wiser-blog.com/news/security-news/security-news_20250602152503/</link>
+      <link>http://localhost:1313/news/security-news/security-news_20250602152503/</link>
       <pubDate>Mon, 02 Jun 2025 15:25:03 +0900</pubDate>
-      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250602152503/</guid>
+      <guid>http://localhost:1313/news/security-news/security-news_20250602152503/</guid>
       <description></description>
     </item>
     <item>
       <title>丸紅情報システムズ、セキュリティインシデント発生時に企業の社内対応を支援する新サービス - クラウド Watch</title>
-      <link>https://www.wiser-blog.com/news/security-news/security-news_20250602151001/</link>
+      <link>http://localhost:1313/news/security-news/security-news_20250602151001/</link>
       <pubDate>Mon, 02 Jun 2025 15:10:01 +0900</pubDate>
-      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250602151001/</guid>
+      <guid>http://localhost:1313/news/security-news/security-news_20250602151001/</guid>
       <description></description>
     </item>
     <item>
       <title>日本共創プラットフォーム、サイバー攻撃の調査結果を公表-情報流出の痕跡なしも、再発防止策を強化へ|セキュリティニュース - 合同会社ロケットボーイズ</title>
-      <link>https://www.wiser-blog.com/news/security-news/security-news_20250602141003/</link>
+      <link>http://localhost:1313/news/security-news/security-news_20250602141003/</link>
       <pubDate>Mon, 02 Jun 2025 14:10:03 +0900</pubDate>
-      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250602141003/</guid>
+      <guid>http://localhost:1313/news/security-news/security-news_20250602141003/</guid>
       <description></description>
     </item>
     <item>
       <title>BIツール「Apache Superset」にセキュリティ設定をバイパスできる脆弱性 - Security NEXT</title>
-      <link>https://www.wiser-blog.com/news/vulnerability-news/vulnerability-news_20250602122504/</link>
+      <link>http://localhost:1313/news/vulnerability-news/vulnerability-news_20250602122504/</link>
       <pubDate>Mon, 02 Jun 2025 12:25:04 +0900</pubDate>
-      <guid>https://www.wiser-blog.com/news/vulnerability-news/vulnerability-news_20250602122504/</guid>
+      <guid>http://localhost:1313/news/vulnerability-news/vulnerability-news_20250602122504/</guid>
       <description></description>
     </item>
     <item>
       <title>セキュリティインシデント発生時の対応を支援する「インシデント対応支援サービス」を提供開始 - 産経ニュース</title>
-      <link>https://www.wiser-blog.com/news/security-news/security-news_20250602121000/</link>
+      <link>http://localhost:1313/news/security-news/security-news_20250602121000/</link>
       <pubDate>Mon, 02 Jun 2025 12:10:00 +0900</pubDate>
-      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250602121000/</guid>
+      <guid>http://localhost:1313/news/security-news/security-news_20250602121000/</guid>
       <description></description>
     </item>
     <item>
       <title>セキュリティインシデント発生時の対応を支援する「インシデント対応支援サービス」を提供開始 - PR TIMES</title>
-      <link>https://www.wiser-blog.com/news/security-news/security-news_20250602101003/</link>
+      <link>http://localhost:1313/news/security-news/security-news_20250602101003/</link>
       <pubDate>Mon, 02 Jun 2025 10:10:03 +0900</pubDate>
-      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250602101003/</guid>
+      <guid>http://localhost:1313/news/security-news/security-news_20250602101003/</guid>
       <description></description>
     </item>
     <item>
       <title>フェルスタッペン、物議を醸すラッセルへの接触で、出場停止の危機に。他のふたつのインシデントはペナルティなし - carview!</title>
-      <link>https://www.wiser-blog.com/news/security-news/security-news_20250602071005/</link>
+      <link>http://localhost:1313/news/security-news/security-news_20250602071005/</link>
       <pubDate>Mon, 02 Jun 2025 07:10:05 +0900</pubDate>
-      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250602071005/</guid>
+      <guid>http://localhost:1313/news/security-news/security-news_20250602071005/</guid>
       <description></description>
     </item>
     <item>
       <title>サイバー攻撃の脅威 IPA宣言普及促進賛同企業に｜星河愛子 - mbp-japan.com</title>
-      <link>https://www.wiser-blog.com/news/security-news/security-news_20250601231004/</link>
+      <link>http://localhost:1313/news/security-news/security-news_20250601231004/</link>
       <pubDate>Sun, 01 Jun 2025 23:10:04 +0900</pubDate>
-      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250601231004/</guid>
+      <guid>http://localhost:1313/news/security-news/security-news_20250601231004/</guid>
       <description></description>
     </item>
     <item>
       <title>「攻撃者を逆ハッキング」BitMEXが北朝鮮ハッカー集団の秘密データベースに侵入成功 – Lazarus Groupの運用実態を暴露 - innovaTopia</title>
-      <link>https://www.wiser-blog.com/news/security-news/security-news_20250601162508/</link>
+      <link>http://localhost:1313/news/security-news/security-news_20250601162508/</link>
       <pubDate>Sun, 01 Jun 2025 16:25:08 +0900</pubDate>
-      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250601162508/</guid>
+      <guid>http://localhost:1313/news/security-news/security-news_20250601162508/</guid>
       <description></description>
     </item>
     <item>
       <title>GangExposed、Contiランサムウェア組織の首謀者を実名暴露 – 米政府懸賞金1,000万ドルの犯罪者特定 - innovaTopia</title>
-      <link>https://www.wiser-blog.com/news/security-news/security-news_20250531221005/</link>
+      <link>http://localhost:1313/news/security-news/security-news_20250531221005/</link>
       <pubDate>Sat, 31 May 2025 22:10:05 +0900</pubDate>
-      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250531221005/</guid>
+      <guid>http://localhost:1313/news/security-news/security-news_20250531221005/</guid>
       <description></description>
     </item>
     <item>
       <title>証券口座乗っ取り 警視庁が不正アクセス容疑で捜査、行為者特定へ - 朝日新聞</title>
-      <link>https://www.wiser-blog.com/news/security-news/security-news_20250531143847/</link>
+      <link>http://localhost:1313/news/security-news/security-news_20250531143847/</link>
       <pubDate>Sat, 31 May 2025 14:38:47 +0900</pubDate>
-      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250531143847/</guid>
+      <guid>http://localhost:1313/news/security-news/security-news_20250531143847/</guid>
       <description></description>
     </item>
     <item>
       <title>トランプ氏側近の私有携帯がハッキング被害、なりすまし犯が州知事らと頻繁に接触…ＦＢＩが捜査 - 読売新聞オンライン</title>
-      <link>https://www.wiser-blog.com/news/security-news/security-news_20250530200212/</link>
+      <link>http://localhost:1313/news/security-news/security-news_20250530200212/</link>
       <pubDate>Fri, 30 May 2025 20:02:12 +0900</pubDate>
-      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250530200212/</guid>
+      <guid>http://localhost:1313/news/security-news/security-news_20250530200212/</guid>
       <description></description>
     </item>
     <item>
       <title>【茅ヶ崎市】茅ヶ崎市内3校の卒業アルバムデータ流出の可能性、斎藤コロタイプ印刷でランサムウェア被害 - 湘南人</title>
-      <link>https://www.wiser-blog.com/news/security-news/security-news_20250530180209/</link>
+      <link>http://localhost:1313/news/security-news/security-news_20250530180209/</link>
       <pubDate>Fri, 30 May 2025 18:02:09 +0900</pubDate>
-      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250530180209/</guid>
+      <guid>http://localhost:1313/news/security-news/security-news_20250530180209/</guid>
       <description></description>
     </item>
     <item>
       <title>1億8400万件のログイン情報が流出、マルウェアで収集か＝報道 - CoinPost</title>
-      <link>https://www.wiser-blog.com/news/malware-news/malware-news_20250530170204/</link>
+      <link>http://localhost:1313/news/malware-news/malware-news_20250530170204/</link>
       <pubDate>Fri, 30 May 2025 17:02:04 +0900</pubDate>
-      <guid>https://www.wiser-blog.com/news/malware-news/malware-news_20250530170204/</guid>
+      <guid>http://localhost:1313/news/malware-news/malware-news_20250530170204/</guid>
       <description></description>
     </item>
     <item>
       <title>ホワイトリスト型マルウェア対策の強みとは。製造業にとっての最適解を考察 - マイナビニュース</title>
-      <link>https://www.wiser-blog.com/news/malware-news/malware-news_20250530151705/</link>
+      <link>http://localhost:1313/news/malware-news/malware-news_20250530151705/</link>
       <pubDate>Fri, 30 May 2025 15:17:05 +0900</pubDate>
-      <guid>https://www.wiser-blog.com/news/malware-news/malware-news_20250530151705/</guid>
+      <guid>http://localhost:1313/news/malware-news/malware-news_20250530151705/</guid>
       <description></description>
     </item>
     <item>
       <title>マルウェアと暗号42 - Speck暗号によるペイロードの暗号化/復号化。簡単なC言語の例</title>
-      <link>https://www.wiser-blog.com/news/malware-news/malware-news_20250530143206/</link>
+      <link>http://localhost:1313/news/malware-news/malware-news_20250530143206/</link>
       <pubDate>Fri, 30 May 2025 14:32:06 +0900</pubDate>
-      <guid>https://www.wiser-blog.com/news/malware-news/malware-news_20250530143206/</guid>
+      <guid>http://localhost:1313/news/malware-news/malware-news_20250530143206/</guid>
       <description></description>
     </item>
     <item>
       <title>wivia 5における複数の脆弱性</title>
-      <link>https://www.wiser-blog.com/news/vulnerability-news/vulnerability-news_20250530140205/</link>
+      <link>http://localhost:1313/news/vulnerability-news/vulnerability-news_20250530140205/</link>
       <pubDate>Fri, 30 May 2025 14:02:05 +0900</pubDate>
-      <guid>https://www.wiser-blog.com/news/vulnerability-news/vulnerability-news_20250530140205/</guid>
+      <guid>http://localhost:1313/news/vulnerability-news/vulnerability-news_20250530140205/</guid>
       <description></description>
     </item>
     <item>
       <title>UNC6032が偽のAI動画生成Webサイトでマルウェアを配布 - 株式会社マキナレコード</title>
-      <link>https://www.wiser-blog.com/news/malware-news/malware-news_20250530130207/</link>
+      <link>http://localhost:1313/news/malware-news/malware-news_20250530130207/</link>
       <pubDate>Fri, 30 May 2025 13:02:07 +0900</pubDate>
-      <guid>https://www.wiser-blog.com/news/malware-news/malware-news_20250530130207/</guid>
+      <guid>http://localhost:1313/news/malware-news/malware-news_20250530130207/</guid>
       <description></description>
     </item>
     <item>
       <title>25年4月のランサム被害を分析、「多重ゆすり」戦略を取るPlayの攻撃が急増 - 日経クロステック</title>
-      <link>https://www.wiser-blog.com/news/security-news/security-news_20250530051158/</link>
+      <link>http://localhost:1313/news/security-news/security-news_20250530051158/</link>
       <pubDate>Fri, 30 May 2025 05:11:58 +0900</pubDate>
-      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250530051158/</guid>
+      <guid>http://localhost:1313/news/security-news/security-news_20250530051158/</guid>
       <description></description>
     </item>
     <item>
       <title>ハードウエアセキュリティ IoT機器をサイバー攻撃から守る - ゴールドオンライン</title>
-      <link>https://www.wiser-blog.com/news/security-news/security-news_20250530021614/</link>
+      <link>http://localhost:1313/news/security-news/security-news_20250530021614/</link>
       <pubDate>Fri, 30 May 2025 02:16:14 +0900</pubDate>
-      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250530021614/</guid>
+      <guid>http://localhost:1313/news/security-news/security-news_20250530021614/</guid>
       <description></description>
     </item>
     <item>
       <title>サイバー攻撃発生時の対応力強化をサポート|5月 - 東京都産業労働局</title>
-      <link>https://www.wiser-blog.com/news/security-news/security-news_20250529185723/</link>
+      <link>http://localhost:1313/news/security-news/security-news_20250529185723/</link>
       <pubDate>Thu, 29 May 2025 18:57:23 +0900</pubDate>
-      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250529185723/</guid>
+      <guid>http://localhost:1313/news/security-news/security-news_20250529185723/</guid>
       <description></description>
     </item>
     <item>
       <title>Facebookから偽Webサイトに誘導 生成AIサービスを悪用したサイバー犯罪の手口──CPR調査 - EnterpriseZine</title>
-      <link>https://www.wiser-blog.com/news/security-news/security-news_20250529181052/</link>
+      <link>http://localhost:1313/news/security-news/security-news_20250529181052/</link>
       <pubDate>Thu, 29 May 2025 18:10:52 +0900</pubDate>
-      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250529181052/</guid>
+      <guid>http://localhost:1313/news/security-news/security-news_20250529181052/</guid>
       <description></description>
     </item>
     <item>
       <title>サイバーセキュリティ対策の点検・見直しを支援|5月|都庁総合ホームページ - metro.tokyo.lg.jp</title>
-      <link>https://www.wiser-blog.com/news/security-news/security-news_20250529171014/</link>
+      <link>http://localhost:1313/news/security-news/security-news_20250529171014/</link>
       <pubDate>Thu, 29 May 2025 17:10:14 +0900</pubDate>
-      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250529171014/</guid>
+      <guid>http://localhost:1313/news/security-news/security-news_20250529171014/</guid>
       <description></description>
     </item>
     <item>
       <title>サイバー攻撃発生時の対応力強化をサポート|5月|都庁総合ホームページ - metro.tokyo.lg.jp</title>
-      <link>https://www.wiser-blog.com/news/security-news/security-news_20250529171013/</link>
+      <link>http://localhost:1313/news/security-news/security-news_20250529171013/</link>
       <pubDate>Thu, 29 May 2025 17:10:13 +0900</pubDate>
-      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250529171013/</guid>
+      <guid>http://localhost:1313/news/security-news/security-news_20250529171013/</guid>
       <description></description>
     </item>
     <item>
       <title>日本は年末までに新たなサイバーセキュリティ戦略を策定する - Vietnam.vn</title>
-      <link>https://www.wiser-blog.com/news/security-news/security-news_20250529164011/</link>
+      <link>http://localhost:1313/news/security-news/security-news_20250529164011/</link>
       <pubDate>Thu, 29 May 2025 16:40:11 +0900</pubDate>
-      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250529164011/</guid>
+      <guid>http://localhost:1313/news/security-news/security-news_20250529164011/</guid>
       <description></description>
     </item>
     <item>
       <title>チェック・ポイント・リサーチ、Kling AIなどの生成AIサービスを悪用したサイバー犯罪の新たな手口について警鐘 - ASCII.jp</title>
-      <link>https://www.wiser-blog.com/news/security-news/security-news_20250529155747/</link>
+      <link>http://localhost:1313/news/security-news/security-news_20250529155747/</link>
       <pubDate>Thu, 29 May 2025 15:57:47 +0900</pubDate>
-      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250529155747/</guid>
+      <guid>http://localhost:1313/news/security-news/security-news_20250529155747/</guid>
       <description></description>
     </item>
   </channel>
