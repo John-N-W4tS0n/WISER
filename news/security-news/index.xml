@@ -2,535 +2,542 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Security News on Tech Blog : WISER</title>
-    <link>http://localhost:1313/news/security-news/</link>
+    <link>https://www.wiser-blog.com/news/security-news/</link>
     <description>Recent content in Security News on Tech Blog : WISER</description>
     <generator>Hugo</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Sat, 07 Jun 2025 00:30:08 +0900</lastBuildDate>
-    <atom:link href="http://localhost:1313/news/security-news/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 07 Jun 2025 03:00:13 +0900</lastBuildDate>
+    <atom:link href="https://www.wiser-blog.com/news/security-news/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ビハインド・ザ・バイナリーの新エピソード：ティム・ブラジトコ、ソフトウェアのセキュリティとコードの難読化について語る</title>
+      <link>https://www.wiser-blog.com/news/security-news/security-news_20250607030013/</link>
+      <pubDate>Sat, 07 Jun 2025 03:00:13 +0900</pubDate>
+      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250607030013/</guid>
+      <description></description>
+    </item>
     <item>
       <title>1億5000万円以上だまし取られる詐欺被害 愛知県岡崎市の男性（60代）にNPO法人を名乗る男「ランサムウエアに感染している」などとうその電話 - au Webポータル</title>
-      <link>http://localhost:1313/news/security-news/security-news_20250607003008/</link>
+      <link>https://www.wiser-blog.com/news/security-news/security-news_20250607003008/</link>
       <pubDate>Sat, 07 Jun 2025 00:30:08 +0900</pubDate>
-      <guid>http://localhost:1313/news/security-news/security-news_20250607003008/</guid>
+      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250607003008/</guid>
       <description></description>
     </item>
     <item>
       <title>1億5000万円以上だまし取られる詐欺被害 愛知県岡崎市の男性（60代）にNPO法人を名乗る男「ランサムウエアに感染している」などとうその電話 - 日テレNEWS NNN</title>
-      <link>http://localhost:1313/news/security-news/security-news_20250607001507/</link>
+      <link>https://www.wiser-blog.com/news/security-news/security-news_20250607001507/</link>
       <pubDate>Sat, 07 Jun 2025 00:15:07 +0900</pubDate>
-      <guid>http://localhost:1313/news/security-news/security-news_20250607001507/</guid>
+      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250607001507/</guid>
       <description></description>
     </item>
     <item>
       <title>セキュリティインシデント発生時の対応を支援する「インシデント対応支援サービス」を提供開始：マピオンニュースの注目トピック - マピオン</title>
-      <link>http://localhost:1313/news/security-news/security-news_20250607000009/</link>
+      <link>https://www.wiser-blog.com/news/security-news/security-news_20250607000009/</link>
       <pubDate>Sat, 07 Jun 2025 00:00:09 +0900</pubDate>
-      <guid>http://localhost:1313/news/security-news/security-news_20250607000009/</guid>
+      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250607000009/</guid>
       <description></description>
     </item>
     <item>
       <title>ランサムウェア感染後に「システムを完全復旧できなかった」企業が7割を超える──ITR調査 - EnterpriseZine</title>
-      <link>http://localhost:1313/news/security-news/security-news_20250606201509/</link>
+      <link>https://www.wiser-blog.com/news/security-news/security-news_20250606201509/</link>
       <pubDate>Fri, 06 Jun 2025 20:15:09 +0900</pubDate>
-      <guid>http://localhost:1313/news/security-news/security-news_20250606201509/</guid>
+      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250606201509/</guid>
       <description></description>
     </item>
     <item>
       <title>デジタルハリウッド大学にて特別講義「サイバー攻撃事例特集」を実施 - PR TIMES</title>
-      <link>http://localhost:1313/news/security-news/security-news_20250606200009/</link>
+      <link>https://www.wiser-blog.com/news/security-news/security-news_20250606200009/</link>
       <pubDate>Fri, 06 Jun 2025 20:00:09 +0900</pubDate>
-      <guid>http://localhost:1313/news/security-news/security-news_20250606200009/</guid>
+      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250606200009/</guid>
       <description></description>
     </item>
     <item>
       <title>台湾の取引所Bitopro、1100万ドル相当のハッキング被害を認める - Yahoo!ファイナンス</title>
-      <link>http://localhost:1313/news/security-news/security-news_20250606183007/</link>
+      <link>https://www.wiser-blog.com/news/security-news/security-news_20250606183007/</link>
       <pubDate>Fri, 06 Jun 2025 18:30:07 +0900</pubDate>
-      <guid>http://localhost:1313/news/security-news/security-news_20250606183007/</guid>
+      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250606183007/</guid>
       <description></description>
     </item>
     <item>
       <title>すかいらーく 不正アクセス被害の持ち帰りサイトを再開 - 日本経済新聞</title>
-      <link>http://localhost:1313/news/security-news/security-news_20250606174505/</link>
+      <link>https://www.wiser-blog.com/news/security-news/security-news_20250606174505/</link>
       <pubDate>Fri, 06 Jun 2025 17:45:05 +0900</pubDate>
-      <guid>http://localhost:1313/news/security-news/security-news_20250606174505/</guid>
+      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250606174505/</guid>
       <description></description>
     </item>
     <item>
       <title>「ランサムウェアに感染」などとウソ…メールきっかけに60代男性が1億5千万円超の詐欺被害 金融機関が不審に思い発覚 - goo ニュース</title>
-      <link>http://localhost:1313/news/security-news/security-news_20250606173006/</link>
+      <link>https://www.wiser-blog.com/news/security-news/security-news_20250606173006/</link>
       <pubDate>Fri, 06 Jun 2025 17:30:06 +0900</pubDate>
-      <guid>http://localhost:1313/news/security-news/security-news_20250606173006/</guid>
+      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250606173006/</guid>
       <description></description>
     </item>
     <item>
       <title>「ランサムウェアに感染」などとウソ…メールきっかけに60代男性が1億5千万円超の詐欺被害 金融機関が不審に思い発覚 - Yahoo!ニュース</title>
-      <link>http://localhost:1313/news/security-news/security-news_20250606173005/</link>
+      <link>https://www.wiser-blog.com/news/security-news/security-news_20250606173005/</link>
       <pubDate>Fri, 06 Jun 2025 17:30:05 +0900</pubDate>
-      <guid>http://localhost:1313/news/security-news/security-news_20250606173005/</guid>
+      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250606173005/</guid>
       <description></description>
     </item>
     <item>
       <title>「スマホがランサムウェアに感染している」60代男性 約1億5000万円だまし取られる 約150回にわたり現金を指定された口座に… 愛知･岡崎市 | 名古屋・愛知・岐阜・三重のニュース【CBC news】 | CBC web - TBS NEWS DIG</title>
-      <link>http://localhost:1313/news/security-news/security-news_20250606170007/</link>
+      <link>https://www.wiser-blog.com/news/security-news/security-news_20250606170007/</link>
       <pubDate>Fri, 06 Jun 2025 17:00:07 +0900</pubDate>
-      <guid>http://localhost:1313/news/security-news/security-news_20250606170007/</guid>
+      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250606170007/</guid>
       <description></description>
     </item>
     <item>
       <title>能力評価試験のインシデント：試験監督者が警鐘を聞き間違える - Vietnam.vn</title>
-      <link>http://localhost:1313/news/security-news/security-news_20250606153007/</link>
+      <link>https://www.wiser-blog.com/news/security-news/security-news_20250606153007/</link>
       <pubDate>Fri, 06 Jun 2025 15:30:07 +0900</pubDate>
-      <guid>http://localhost:1313/news/security-news/security-news_20250606153007/</guid>
+      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250606153007/</guid>
       <description></description>
     </item>
     <item>
       <title>証券口座への不正アクセス急増。被害金額は直近3カ月で5千億円超 - PC Watch</title>
-      <link>http://localhost:1313/news/security-news/security-news_20250606123005/</link>
+      <link>https://www.wiser-blog.com/news/security-news/security-news_20250606123005/</link>
       <pubDate>Fri, 06 Jun 2025 12:30:05 +0900</pubDate>
-      <guid>http://localhost:1313/news/security-news/security-news_20250606123005/</guid>
+      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250606123005/</guid>
       <description></description>
     </item>
     <item>
       <title>巧妙化するサイバー攻撃から重要データを守る、情報セキュリティー6つの注目技術 - 日経クロステック</title>
-      <link>http://localhost:1313/news/security-news/security-news_20250606121507/</link>
+      <link>https://www.wiser-blog.com/news/security-news/security-news_20250606121507/</link>
       <pubDate>Fri, 06 Jun 2025 12:15:07 +0900</pubDate>
-      <guid>http://localhost:1313/news/security-news/security-news_20250606121507/</guid>
+      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250606121507/</guid>
       <description></description>
     </item>
     <item>
       <title>Microsoft、欧州に対する無償のサイバーセキュリティ支援策を発表 - マイナビニュース</title>
-      <link>http://localhost:1313/news/security-news/security-news_20250606093017/</link>
+      <link>https://www.wiser-blog.com/news/security-news/security-news_20250606093017/</link>
       <pubDate>Fri, 06 Jun 2025 09:30:17 +0900</pubDate>
-      <guid>http://localhost:1313/news/security-news/security-news_20250606093017/</guid>
+      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250606093017/</guid>
       <description></description>
     </item>
     <item>
       <title>『セキュリティ人材不足でもできるランサム攻撃への即応体制 』というテーマのウェビナーを開催 - PR TIMES</title>
-      <link>http://localhost:1313/news/security-news/security-news_20250606091507/</link>
+      <link>https://www.wiser-blog.com/news/security-news/security-news_20250606091507/</link>
       <pubDate>Fri, 06 Jun 2025 09:15:07 +0900</pubDate>
-      <guid>http://localhost:1313/news/security-news/security-news_20250606091507/</guid>
+      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250606091507/</guid>
       <description></description>
     </item>
     <item>
       <title>サイバーセキュリティのMorphisec、ランサムウェアとデータ漏洩を防ぐ新ソリューション「Exfiltration Prevention」を発表 - AT PARTNERS</title>
-      <link>http://localhost:1313/news/security-news/security-news_20250606090016/</link>
+      <link>https://www.wiser-blog.com/news/security-news/security-news_20250606090016/</link>
       <pubDate>Fri, 06 Jun 2025 09:00:16 +0900</pubDate>
-      <guid>http://localhost:1313/news/security-news/security-news_20250606090016/</guid>
+      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250606090016/</guid>
       <description></description>
     </item>
     <item>
       <title>サイバーセキュリティのCardinalOps、企業SIEMがサイバー攻撃手法の79％を見逃していると最新レポートで指摘 - AT PARTNERS</title>
-      <link>http://localhost:1313/news/security-news/security-news_20250606084506/</link>
+      <link>https://www.wiser-blog.com/news/security-news/security-news_20250606084506/</link>
       <pubDate>Fri, 06 Jun 2025 08:45:06 +0900</pubDate>
-      <guid>http://localhost:1313/news/security-news/security-news_20250606084506/</guid>
+      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250606084506/</guid>
       <description></description>
     </item>
     <item>
       <title>Salesforceの顧客情報狙うサイバー攻撃、Googleが注意喚起 - マイナビニュース</title>
-      <link>http://localhost:1313/news/security-news/security-news_20250606083006/</link>
+      <link>https://www.wiser-blog.com/news/security-news/security-news_20250606083006/</link>
       <pubDate>Fri, 06 Jun 2025 08:30:06 +0900</pubDate>
-      <guid>http://localhost:1313/news/security-news/security-news_20250606083006/</guid>
+      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250606083006/</guid>
       <description></description>
     </item>
     <item>
       <title>エヌ・デーソフトウェアのメールアカウントに不正アクセス、英文の迷惑メール送信 - ScanNetSecurity</title>
-      <link>http://localhost:1313/news/security-news/security-news_20250606081507/</link>
+      <link>https://www.wiser-blog.com/news/security-news/security-news_20250606081507/</link>
       <pubDate>Fri, 06 Jun 2025 08:15:07 +0900</pubDate>
-      <guid>http://localhost:1313/news/security-news/security-news_20250606081507/</guid>
+      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250606081507/</guid>
       <description></description>
     </item>
     <item>
       <title>マルコもレース終盤のフェルスタッペンに困惑。過去のインシデントや誤った決断により「感情に飲まれてしまった」 - au Webポータル</title>
-      <link>http://localhost:1313/news/security-news/security-news_20250606073008/</link>
+      <link>https://www.wiser-blog.com/news/security-news/security-news_20250606073008/</link>
       <pubDate>Fri, 06 Jun 2025 07:30:08 +0900</pubDate>
-      <guid>http://localhost:1313/news/security-news/security-news_20250606073008/</guid>
+      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250606073008/</guid>
       <description></description>
     </item>
     <item>
       <title>マルコもレース終盤のフェルスタッペンに困惑。過去のインシデントや誤った決断により「感情に飲まれてしまった」 - ｄメニューニュース</title>
-      <link>http://localhost:1313/news/security-news/security-news_20250606071508/</link>
+      <link>https://www.wiser-blog.com/news/security-news/security-news_20250606071508/</link>
       <pubDate>Fri, 06 Jun 2025 07:15:08 +0900</pubDate>
-      <guid>http://localhost:1313/news/security-news/security-news_20250606071508/</guid>
+      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250606071508/</guid>
       <description></description>
     </item>
     <item>
       <title>マルコもレース終盤のフェルスタッペンに困惑。過去のインシデントや誤った決断により「感情に飲まれてしまった」 - carview!</title>
-      <link>http://localhost:1313/news/security-news/security-news_20250606070011/</link>
+      <link>https://www.wiser-blog.com/news/security-news/security-news_20250606070011/</link>
       <pubDate>Fri, 06 Jun 2025 07:00:11 +0900</pubDate>
-      <guid>http://localhost:1313/news/security-news/security-news_20250606070011/</guid>
+      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250606070011/</guid>
       <description></description>
     </item>
     <item>
       <title>台湾軍サイバー攻撃と中国、20人を指名手配 - nna.jp</title>
-      <link>http://localhost:1313/news/security-news/security-news_20250606001516/</link>
+      <link>https://www.wiser-blog.com/news/security-news/security-news_20250606001516/</link>
       <pubDate>Fri, 06 Jun 2025 00:15:16 +0900</pubDate>
-      <guid>http://localhost:1313/news/security-news/security-news_20250606001516/</guid>
+      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250606001516/</guid>
       <description></description>
     </item>
     <item>
       <title>セキュリティインシデント発生時の対応を支援する「インシデント対応支援サービス」を提供開始：マピオンニュースの注目トピック - マピオン</title>
-      <link>http://localhost:1313/news/security-news/security-news_20250605230008/</link>
+      <link>https://www.wiser-blog.com/news/security-news/security-news_20250605230008/</link>
       <pubDate>Thu, 05 Jun 2025 23:00:08 +0900</pubDate>
-      <guid>http://localhost:1313/news/security-news/security-news_20250605230008/</guid>
+      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250605230008/</guid>
       <description></description>
     </item>
     <item>
       <title>企業情報セキュリティの実態と今後のセキュリティ統制、AI活用の展望 - nri.com</title>
-      <link>http://localhost:1313/news/security-news/security-news_20250605214506/</link>
+      <link>https://www.wiser-blog.com/news/security-news/security-news_20250605214506/</link>
       <pubDate>Thu, 05 Jun 2025 21:45:06 +0900</pubDate>
-      <guid>http://localhost:1313/news/security-news/security-news_20250605214506/</guid>
+      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250605214506/</guid>
       <description></description>
     </item>
     <item>
       <title>中国警察、台湾軍がサイバー攻撃 20人を指名手配 - 日本経済新聞</title>
-      <link>http://localhost:1313/news/security-news/security-news_20250605203010/</link>
+      <link>https://www.wiser-blog.com/news/security-news/security-news_20250605203010/</link>
       <pubDate>Thu, 05 Jun 2025 20:30:10 +0900</pubDate>
-      <guid>http://localhost:1313/news/security-news/security-news_20250605203010/</guid>
+      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250605203010/</guid>
       <description></description>
     </item>
     <item>
       <title>アニメ「鬼滅の刃」制作会社に大規模不正アクセス 公式店舗でトラブルに - ASCII.jp</title>
-      <link>http://localhost:1313/news/security-news/security-news_20250604173013/</link>
+      <link>https://www.wiser-blog.com/news/security-news/security-news_20250604173013/</link>
       <pubDate>Wed, 04 Jun 2025 17:30:13 +0900</pubDate>
-      <guid>http://localhost:1313/news/security-news/security-news_20250604173013/</guid>
+      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250604173013/</guid>
       <description></description>
     </item>
     <item>
       <title>政府が最近、SKテレコムで発生したハッキング事態と関連し、情報通信技術(ICT)業界を対象にセキュリティ点検を続けている。 その結果、KTとLGユープラスではセキュリティ上の特異点を発見できなかった。 - 매일경제</title>
-      <link>http://localhost:1313/news/security-news/security-news_20250604143007/</link>
+      <link>https://www.wiser-blog.com/news/security-news/security-news_20250604143007/</link>
       <pubDate>Wed, 04 Jun 2025 14:30:07 +0900</pubDate>
-      <guid>http://localhost:1313/news/security-news/security-news_20250604143007/</guid>
+      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250604143007/</guid>
       <description></description>
     </item>
     <item>
       <title>リョーサン菱洋HD、ホームページのRSS機能に不正アクセス-不審情報配信で注意喚起 - 合同会社ロケットボーイズ</title>
-      <link>http://localhost:1313/news/security-news/security-news_20250604141508/</link>
+      <link>https://www.wiser-blog.com/news/security-news/security-news_20250604141508/</link>
       <pubDate>Wed, 04 Jun 2025 14:15:08 +0900</pubDate>
-      <guid>http://localhost:1313/news/security-news/security-news_20250604141508/</guid>
+      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250604141508/</guid>
       <description></description>
     </item>
     <item>
       <title>オーストラリア、ランサムウェア身代金支払い後の報告を義務化 - 株式会社マキナレコード</title>
-      <link>http://localhost:1313/news/security-news/security-news_20250604131517/</link>
+      <link>https://www.wiser-blog.com/news/security-news/security-news_20250604131517/</link>
       <pubDate>Wed, 04 Jun 2025 13:15:17 +0900</pubDate>
-      <guid>http://localhost:1313/news/security-news/security-news_20250604131517/</guid>
+      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250604131517/</guid>
       <description></description>
     </item>
     <item>
       <title>山形大学、付属中学でサポート詐欺による不正アクセスで個人情報漏洩の可能性-2025年2回目のインシデント - 合同会社ロケットボーイズ</title>
-      <link>http://localhost:1313/news/security-news/security-news_20250604111508/</link>
+      <link>https://www.wiser-blog.com/news/security-news/security-news_20250604111508/</link>
       <pubDate>Wed, 04 Jun 2025 11:15:08 +0900</pubDate>
-      <guid>http://localhost:1313/news/security-news/security-news_20250604111508/</guid>
+      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250604111508/</guid>
       <description></description>
     </item>
     <item>
       <title>テリロジーHD---コンステラセキュリティジャパン、Filigranの脅威インテリジェンス分析基盤を日本市場に導入 - 株探</title>
-      <link>http://localhost:1313/news/security-news/security-news_20250604110016/</link>
+      <link>https://www.wiser-blog.com/news/security-news/security-news_20250604110016/</link>
       <pubDate>Wed, 04 Jun 2025 11:00:16 +0900</pubDate>
-      <guid>http://localhost:1313/news/security-news/security-news_20250604110016/</guid>
+      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250604110016/</guid>
       <description></description>
     </item>
     <item>
       <title>「広範囲で執拗、かつテスト的」──年末年始のDDoS攻撃、有識者はどう見る - ITmedia</title>
-      <link>http://localhost:1313/news/security-news/security-news_20250604101512/</link>
+      <link>https://www.wiser-blog.com/news/security-news/security-news_20250604101512/</link>
       <pubDate>Wed, 04 Jun 2025 10:15:12 +0900</pubDate>
-      <guid>http://localhost:1313/news/security-news/security-news_20250604101512/</guid>
+      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250604101512/</guid>
       <description></description>
     </item>
     <item>
       <title>日本ジッコウにランサムウェア攻撃、複数サーバと端末内のデータが暗号化 - ScanNetSecurity</title>
-      <link>http://localhost:1313/news/security-news/security-news_20250604083005/</link>
+      <link>https://www.wiser-blog.com/news/security-news/security-news_20250604083005/</link>
       <pubDate>Wed, 04 Jun 2025 08:30:05 +0900</pubDate>
-      <guid>http://localhost:1313/news/security-news/security-news_20250604083005/</guid>
+      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250604083005/</guid>
       <description></description>
     </item>
     <item>
       <title>The North Face(ザ・ノース・フェイス)、4月のECサイトへのサイバー攻撃で個人情報閲覧の可能性 - 合同会社ロケットボーイズ</title>
-      <link>http://localhost:1313/news/security-news/security-news_20250604081507/</link>
+      <link>https://www.wiser-blog.com/news/security-news/security-news_20250604081507/</link>
       <pubDate>Wed, 04 Jun 2025 08:15:07 +0900</pubDate>
-      <guid>http://localhost:1313/news/security-news/security-news_20250604081507/</guid>
+      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250604081507/</guid>
       <description></description>
     </item>
     <item>
       <title>ハッカーを支援するマルウェアの“検出回避”サービスを摘発-オランダ・米国|セキュリティニュース - 合同会社ロケットボーイズ</title>
-      <link>http://localhost:1313/news/security-news/security-news_20250604074512/</link>
+      <link>https://www.wiser-blog.com/news/security-news/security-news_20250604074512/</link>
       <pubDate>Wed, 04 Jun 2025 07:45:12 +0900</pubDate>
-      <guid>http://localhost:1313/news/security-news/security-news_20250604074512/</guid>
+      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250604074512/</guid>
       <description></description>
     </item>
     <item>
       <title>ケイ・オール、3月に発生した不正アクセスの続報を発表 -メール配信エンジン経由で個人情報流出の可能性|セキュリティニュース - 合同会社ロケットボーイズ</title>
-      <link>http://localhost:1313/news/security-news/security-news_20250604071508/</link>
+      <link>https://www.wiser-blog.com/news/security-news/security-news_20250604071508/</link>
       <pubDate>Wed, 04 Jun 2025 07:15:08 +0900</pubDate>
-      <guid>http://localhost:1313/news/security-news/security-news_20250604071508/</guid>
+      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250604071508/</guid>
       <description></description>
     </item>
     <item>
       <title>認証情報窃取が拡大 IBM、サイバー攻撃調査 - 電波新聞デジタル</title>
-      <link>http://localhost:1313/news/security-news/security-news_20250604051511/</link>
+      <link>https://www.wiser-blog.com/news/security-news/security-news_20250604051511/</link>
       <pubDate>Wed, 04 Jun 2025 05:15:11 +0900</pubDate>
-      <guid>http://localhost:1313/news/security-news/security-news_20250604051511/</guid>
+      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250604051511/</guid>
       <description></description>
     </item>
     <item>
       <title>ヴィクトリアズ・シークレット、ITインシデントにもかかわらず第1四半期の業績予想を上回る 執筆 - Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース</title>
-      <link>http://localhost:1313/news/security-news/security-news_20250603213008/</link>
+      <link>https://www.wiser-blog.com/news/security-news/security-news_20250603213008/</link>
       <pubDate>Tue, 03 Jun 2025 21:30:08 +0900</pubDate>
-      <guid>http://localhost:1313/news/security-news/security-news_20250603213008/</guid>
+      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250603213008/</guid>
       <description></description>
     </item>
     <item>
       <title>【山形】山形大学附属中学校で不正アクセス被害「情報流出」の恐れ…中学校が会見 - FNNプライムオンライン</title>
-      <link>http://localhost:1313/news/security-news/security-news_20250603203007/</link>
+      <link>https://www.wiser-blog.com/news/security-news/security-news_20250603203007/</link>
       <pubDate>Tue, 03 Jun 2025 20:30:07 +0900</pubDate>
-      <guid>http://localhost:1313/news/security-news/security-news_20250603203007/</guid>
+      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250603203007/</guid>
       <description></description>
     </item>
     <item>
       <title>Cartier(カルティエ)、不正アクセスによるサイバー攻撃で個人情報漏洩の可能性|セキュリティとファッションのニュース - 合同会社ロケットボーイズ</title>
-      <link>http://localhost:1313/news/security-news/security-news_20250603151508/</link>
+      <link>https://www.wiser-blog.com/news/security-news/security-news_20250603151508/</link>
       <pubDate>Tue, 03 Jun 2025 15:15:08 +0900</pubDate>
-      <guid>http://localhost:1313/news/security-news/security-news_20250603151508/</guid>
+      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250603151508/</guid>
       <description></description>
     </item>
     <item>
       <title>緊急脆弱性が報告されたActive! mail 6、運用環境へのサイバー攻撃による侵害は確認されず|セキュリティニュース - 合同会社ロケットボーイズ</title>
-      <link>http://localhost:1313/news/security-news/security-news_20250603144004/</link>
+      <link>https://www.wiser-blog.com/news/security-news/security-news_20250603144004/</link>
       <pubDate>Tue, 03 Jun 2025 14:40:04 +0900</pubDate>
-      <guid>http://localhost:1313/news/security-news/security-news_20250603144004/</guid>
+      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250603144004/</guid>
       <description></description>
     </item>
     <item>
       <title>中小企業狙うランサムウェアが増加 十分な対策は困難？課題浮き彫り - 朝日新聞</title>
-      <link>http://localhost:1313/news/security-news/security-news_20250603122504/</link>
+      <link>https://www.wiser-blog.com/news/security-news/security-news_20250603122504/</link>
       <pubDate>Tue, 03 Jun 2025 12:25:04 +0900</pubDate>
-      <guid>http://localhost:1313/news/security-news/security-news_20250603122504/</guid>
+      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250603122504/</guid>
       <description></description>
     </item>
     <item>
       <title>サイバー攻撃を支援する大規模なオンラインサービス押収、米司法省 - マイナビニュース</title>
-      <link>http://localhost:1313/news/security-news/security-news_20250603105503/</link>
+      <link>https://www.wiser-blog.com/news/security-news/security-news_20250603105503/</link>
       <pubDate>Tue, 03 Jun 2025 10:55:03 +0900</pubDate>
-      <guid>http://localhost:1313/news/security-news/security-news_20250603105503/</guid>
+      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250603105503/</guid>
       <description></description>
     </item>
     <item>
       <title>総合医療用品 商社のホスピタルサービスがランサムウェアの被害を報告|セキュリティニュースのセキュリティ対策Lab - 合同会社ロケットボーイズ</title>
-      <link>http://localhost:1313/news/security-news/security-news_20250603104002/</link>
+      <link>https://www.wiser-blog.com/news/security-news/security-news_20250603104002/</link>
       <pubDate>Tue, 03 Jun 2025 10:40:02 +0900</pubDate>
-      <guid>http://localhost:1313/news/security-news/security-news_20250603104002/</guid>
+      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250603104002/</guid>
       <description></description>
     </item>
     <item>
       <title>増加するランサムウェア攻撃やサプライチェーン攻撃。UTMの導入でセキュリティ強化を実現 - マイナビニュース</title>
-      <link>http://localhost:1313/news/security-news/security-news_20250603101002/</link>
+      <link>https://www.wiser-blog.com/news/security-news/security-news_20250603101002/</link>
       <pubDate>Tue, 03 Jun 2025 10:10:02 +0900</pubDate>
-      <guid>http://localhost:1313/news/security-news/security-news_20250603101002/</guid>
+      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250603101002/</guid>
       <description></description>
     </item>
     <item>
       <title>TrickBot・Contiランサムウェア首謀者ヴィタリー・コヴァレフの正体が暴露、匿名告発者「GangExposed」が5億ドル資産も公開 - innovaTopia</title>
-      <link>http://localhost:1313/news/security-news/security-news_20250603094004/</link>
+      <link>https://www.wiser-blog.com/news/security-news/security-news_20250603094004/</link>
       <pubDate>Tue, 03 Jun 2025 09:40:04 +0900</pubDate>
-      <guid>http://localhost:1313/news/security-news/security-news_20250603094004/</guid>
+      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250603094004/</guid>
       <description></description>
     </item>
     <item>
       <title>暗号資産関連の詐欺、ハッキング、エクスプロイトによる損失額、5月は約430億円：CertiK - Yahoo!ニュース</title>
-      <link>http://localhost:1313/news/security-news/security-news_20250603085502/</link>
+      <link>https://www.wiser-blog.com/news/security-news/security-news_20250603085502/</link>
       <pubDate>Tue, 03 Jun 2025 08:55:02 +0900</pubDate>
-      <guid>http://localhost:1313/news/security-news/security-news_20250603085502/</guid>
+      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250603085502/</guid>
       <description></description>
     </item>
     <item>
       <title>GMOサイバーセキュリティ byイエラエ、ペネトレーションテストのオプションとして「バックドア診断」提供開始 - ScanNetSecurity</title>
-      <link>http://localhost:1313/news/security-news/security-news_20250603081004/</link>
+      <link>https://www.wiser-blog.com/news/security-news/security-news_20250603081004/</link>
       <pubDate>Tue, 03 Jun 2025 08:10:04 +0900</pubDate>
-      <guid>http://localhost:1313/news/security-news/security-news_20250603081004/</guid>
+      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250603081004/</guid>
       <description></description>
     </item>
     <item>
       <title>インシデント数を75％減少、最先端の「SOC」に変革するための5つのステップ - ビジネス&#43;IT</title>
-      <link>http://localhost:1313/news/security-news/security-news_20250603072510/</link>
+      <link>https://www.wiser-blog.com/news/security-news/security-news_20250603072510/</link>
       <pubDate>Tue, 03 Jun 2025 07:25:10 +0900</pubDate>
-      <guid>http://localhost:1313/news/security-news/security-news_20250603072510/</guid>
+      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250603072510/</guid>
       <description></description>
     </item>
     <item>
       <title>ランサム組織の活動実態に迫る・後編 - 日経クロステック</title>
-      <link>http://localhost:1313/news/security-news/security-news_20250603071009/</link>
+      <link>https://www.wiser-blog.com/news/security-news/security-news_20250603071009/</link>
       <pubDate>Tue, 03 Jun 2025 07:10:09 +0900</pubDate>
-      <guid>http://localhost:1313/news/security-news/security-news_20250603071009/</guid>
+      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250603071009/</guid>
       <description></description>
     </item>
     <item>
       <title>ランサム組織の活動実態に迫る・後編 - 日経クロステック</title>
-      <link>http://localhost:1313/news/security-news/security-news_20250603071008/</link>
+      <link>https://www.wiser-blog.com/news/security-news/security-news_20250603071008/</link>
       <pubDate>Tue, 03 Jun 2025 07:10:08 +0900</pubDate>
-      <guid>http://localhost:1313/news/security-news/security-news_20250603071008/</guid>
+      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250603071008/</guid>
       <description></description>
     </item>
     <item>
       <title>不正アクセス被害のアクリル運動部が8つの再発防止策、進捗を報告 - 日経クロステック</title>
-      <link>http://localhost:1313/news/security-news/security-news_20250603051009/</link>
+      <link>https://www.wiser-blog.com/news/security-news/security-news_20250603051009/</link>
       <pubDate>Tue, 03 Jun 2025 05:10:09 +0900</pubDate>
-      <guid>http://localhost:1313/news/security-news/security-news_20250603051009/</guid>
+      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250603051009/</guid>
       <description></description>
     </item>
     <item>
       <title>台湾の取引所BitoProが1100万ドル相当のハッキング被害を受けた可能性：ZachXBT氏が指摘 - Yahoo!ニュース</title>
-      <link>http://localhost:1313/news/security-news/security-news_20250602191002/</link>
+      <link>https://www.wiser-blog.com/news/security-news/security-news_20250602191002/</link>
       <pubDate>Mon, 02 Jun 2025 19:10:02 +0900</pubDate>
-      <guid>http://localhost:1313/news/security-news/security-news_20250602191002/</guid>
+      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250602191002/</guid>
       <description></description>
     </item>
     <item>
       <title>ビル制御統合システム・サイバー攻撃対策サービス提供 パナソニック - 住宅新報web</title>
-      <link>http://localhost:1313/news/security-news/security-news_20250602161002/</link>
+      <link>https://www.wiser-blog.com/news/security-news/security-news_20250602161002/</link>
       <pubDate>Mon, 02 Jun 2025 16:10:02 +0900</pubDate>
-      <guid>http://localhost:1313/news/security-news/security-news_20250602161002/</guid>
+      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250602161002/</guid>
       <description></description>
     </item>
     <item>
       <title>日本触媒、グループの不正アクセス 被害を発表|セキュリティニュース - 合同会社ロケットボーイズ</title>
-      <link>http://localhost:1313/news/security-news/security-news_20250602152503/</link>
+      <link>https://www.wiser-blog.com/news/security-news/security-news_20250602152503/</link>
       <pubDate>Mon, 02 Jun 2025 15:25:03 +0900</pubDate>
-      <guid>http://localhost:1313/news/security-news/security-news_20250602152503/</guid>
+      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250602152503/</guid>
       <description></description>
     </item>
     <item>
       <title>丸紅情報システムズ、セキュリティインシデント発生時に企業の社内対応を支援する新サービス - クラウド Watch</title>
-      <link>http://localhost:1313/news/security-news/security-news_20250602151001/</link>
+      <link>https://www.wiser-blog.com/news/security-news/security-news_20250602151001/</link>
       <pubDate>Mon, 02 Jun 2025 15:10:01 +0900</pubDate>
-      <guid>http://localhost:1313/news/security-news/security-news_20250602151001/</guid>
+      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250602151001/</guid>
       <description></description>
     </item>
     <item>
       <title>日本共創プラットフォーム、サイバー攻撃の調査結果を公表-情報流出の痕跡なしも、再発防止策を強化へ|セキュリティニュース - 合同会社ロケットボーイズ</title>
-      <link>http://localhost:1313/news/security-news/security-news_20250602141003/</link>
+      <link>https://www.wiser-blog.com/news/security-news/security-news_20250602141003/</link>
       <pubDate>Mon, 02 Jun 2025 14:10:03 +0900</pubDate>
-      <guid>http://localhost:1313/news/security-news/security-news_20250602141003/</guid>
+      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250602141003/</guid>
       <description></description>
     </item>
     <item>
       <title>セキュリティインシデント発生時の対応を支援する「インシデント対応支援サービス」を提供開始 - 産経ニュース</title>
-      <link>http://localhost:1313/news/security-news/security-news_20250602121000/</link>
+      <link>https://www.wiser-blog.com/news/security-news/security-news_20250602121000/</link>
       <pubDate>Mon, 02 Jun 2025 12:10:00 +0900</pubDate>
-      <guid>http://localhost:1313/news/security-news/security-news_20250602121000/</guid>
+      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250602121000/</guid>
       <description></description>
     </item>
     <item>
       <title>セキュリティインシデント発生時の対応を支援する「インシデント対応支援サービス」を提供開始 - PR TIMES</title>
-      <link>http://localhost:1313/news/security-news/security-news_20250602101003/</link>
+      <link>https://www.wiser-blog.com/news/security-news/security-news_20250602101003/</link>
       <pubDate>Mon, 02 Jun 2025 10:10:03 +0900</pubDate>
-      <guid>http://localhost:1313/news/security-news/security-news_20250602101003/</guid>
+      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250602101003/</guid>
       <description></description>
     </item>
     <item>
       <title>フェルスタッペン、物議を醸すラッセルへの接触で、出場停止の危機に。他のふたつのインシデントはペナルティなし - carview!</title>
-      <link>http://localhost:1313/news/security-news/security-news_20250602071005/</link>
+      <link>https://www.wiser-blog.com/news/security-news/security-news_20250602071005/</link>
       <pubDate>Mon, 02 Jun 2025 07:10:05 +0900</pubDate>
-      <guid>http://localhost:1313/news/security-news/security-news_20250602071005/</guid>
+      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250602071005/</guid>
       <description></description>
     </item>
     <item>
       <title>サイバー攻撃の脅威 IPA宣言普及促進賛同企業に｜星河愛子 - mbp-japan.com</title>
-      <link>http://localhost:1313/news/security-news/security-news_20250601231004/</link>
+      <link>https://www.wiser-blog.com/news/security-news/security-news_20250601231004/</link>
       <pubDate>Sun, 01 Jun 2025 23:10:04 +0900</pubDate>
-      <guid>http://localhost:1313/news/security-news/security-news_20250601231004/</guid>
+      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250601231004/</guid>
       <description></description>
     </item>
     <item>
       <title>「攻撃者を逆ハッキング」BitMEXが北朝鮮ハッカー集団の秘密データベースに侵入成功 – Lazarus Groupの運用実態を暴露 - innovaTopia</title>
-      <link>http://localhost:1313/news/security-news/security-news_20250601162508/</link>
+      <link>https://www.wiser-blog.com/news/security-news/security-news_20250601162508/</link>
       <pubDate>Sun, 01 Jun 2025 16:25:08 +0900</pubDate>
-      <guid>http://localhost:1313/news/security-news/security-news_20250601162508/</guid>
+      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250601162508/</guid>
       <description></description>
     </item>
     <item>
       <title>GangExposed、Contiランサムウェア組織の首謀者を実名暴露 – 米政府懸賞金1,000万ドルの犯罪者特定 - innovaTopia</title>
-      <link>http://localhost:1313/news/security-news/security-news_20250531221005/</link>
+      <link>https://www.wiser-blog.com/news/security-news/security-news_20250531221005/</link>
       <pubDate>Sat, 31 May 2025 22:10:05 +0900</pubDate>
-      <guid>http://localhost:1313/news/security-news/security-news_20250531221005/</guid>
+      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250531221005/</guid>
       <description></description>
     </item>
     <item>
       <title>証券口座乗っ取り 警視庁が不正アクセス容疑で捜査、行為者特定へ - 朝日新聞</title>
-      <link>http://localhost:1313/news/security-news/security-news_20250531143847/</link>
+      <link>https://www.wiser-blog.com/news/security-news/security-news_20250531143847/</link>
       <pubDate>Sat, 31 May 2025 14:38:47 +0900</pubDate>
-      <guid>http://localhost:1313/news/security-news/security-news_20250531143847/</guid>
+      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250531143847/</guid>
       <description></description>
     </item>
     <item>
       <title>トランプ氏側近の私有携帯がハッキング被害、なりすまし犯が州知事らと頻繁に接触…ＦＢＩが捜査 - 読売新聞オンライン</title>
-      <link>http://localhost:1313/news/security-news/security-news_20250530200212/</link>
+      <link>https://www.wiser-blog.com/news/security-news/security-news_20250530200212/</link>
       <pubDate>Fri, 30 May 2025 20:02:12 +0900</pubDate>
-      <guid>http://localhost:1313/news/security-news/security-news_20250530200212/</guid>
+      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250530200212/</guid>
       <description></description>
     </item>
     <item>
       <title>【茅ヶ崎市】茅ヶ崎市内3校の卒業アルバムデータ流出の可能性、斎藤コロタイプ印刷でランサムウェア被害 - 湘南人</title>
-      <link>http://localhost:1313/news/security-news/security-news_20250530180209/</link>
+      <link>https://www.wiser-blog.com/news/security-news/security-news_20250530180209/</link>
       <pubDate>Fri, 30 May 2025 18:02:09 +0900</pubDate>
-      <guid>http://localhost:1313/news/security-news/security-news_20250530180209/</guid>
+      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250530180209/</guid>
       <description></description>
     </item>
     <item>
       <title>25年4月のランサム被害を分析、「多重ゆすり」戦略を取るPlayの攻撃が急増 - 日経クロステック</title>
-      <link>http://localhost:1313/news/security-news/security-news_20250530051158/</link>
+      <link>https://www.wiser-blog.com/news/security-news/security-news_20250530051158/</link>
       <pubDate>Fri, 30 May 2025 05:11:58 +0900</pubDate>
-      <guid>http://localhost:1313/news/security-news/security-news_20250530051158/</guid>
+      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250530051158/</guid>
       <description></description>
     </item>
     <item>
       <title>ハードウエアセキュリティ IoT機器をサイバー攻撃から守る - ゴールドオンライン</title>
-      <link>http://localhost:1313/news/security-news/security-news_20250530021614/</link>
+      <link>https://www.wiser-blog.com/news/security-news/security-news_20250530021614/</link>
       <pubDate>Fri, 30 May 2025 02:16:14 +0900</pubDate>
-      <guid>http://localhost:1313/news/security-news/security-news_20250530021614/</guid>
+      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250530021614/</guid>
       <description></description>
     </item>
     <item>
       <title>サイバー攻撃発生時の対応力強化をサポート|5月 - 東京都産業労働局</title>
-      <link>http://localhost:1313/news/security-news/security-news_20250529185723/</link>
+      <link>https://www.wiser-blog.com/news/security-news/security-news_20250529185723/</link>
       <pubDate>Thu, 29 May 2025 18:57:23 +0900</pubDate>
-      <guid>http://localhost:1313/news/security-news/security-news_20250529185723/</guid>
+      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250529185723/</guid>
       <description></description>
     </item>
     <item>
       <title>Facebookから偽Webサイトに誘導 生成AIサービスを悪用したサイバー犯罪の手口──CPR調査 - EnterpriseZine</title>
-      <link>http://localhost:1313/news/security-news/security-news_20250529181052/</link>
+      <link>https://www.wiser-blog.com/news/security-news/security-news_20250529181052/</link>
       <pubDate>Thu, 29 May 2025 18:10:52 +0900</pubDate>
-      <guid>http://localhost:1313/news/security-news/security-news_20250529181052/</guid>
+      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250529181052/</guid>
       <description></description>
     </item>
     <item>
       <title>サイバーセキュリティ対策の点検・見直しを支援|5月|都庁総合ホームページ - metro.tokyo.lg.jp</title>
-      <link>http://localhost:1313/news/security-news/security-news_20250529171014/</link>
+      <link>https://www.wiser-blog.com/news/security-news/security-news_20250529171014/</link>
       <pubDate>Thu, 29 May 2025 17:10:14 +0900</pubDate>
-      <guid>http://localhost:1313/news/security-news/security-news_20250529171014/</guid>
+      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250529171014/</guid>
       <description></description>
     </item>
     <item>
       <title>サイバー攻撃発生時の対応力強化をサポート|5月|都庁総合ホームページ - metro.tokyo.lg.jp</title>
-      <link>http://localhost:1313/news/security-news/security-news_20250529171013/</link>
+      <link>https://www.wiser-blog.com/news/security-news/security-news_20250529171013/</link>
       <pubDate>Thu, 29 May 2025 17:10:13 +0900</pubDate>
-      <guid>http://localhost:1313/news/security-news/security-news_20250529171013/</guid>
+      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250529171013/</guid>
       <description></description>
     </item>
     <item>
       <title>日本は年末までに新たなサイバーセキュリティ戦略を策定する - Vietnam.vn</title>
-      <link>http://localhost:1313/news/security-news/security-news_20250529164011/</link>
+      <link>https://www.wiser-blog.com/news/security-news/security-news_20250529164011/</link>
       <pubDate>Thu, 29 May 2025 16:40:11 +0900</pubDate>
-      <guid>http://localhost:1313/news/security-news/security-news_20250529164011/</guid>
+      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250529164011/</guid>
       <description></description>
     </item>
     <item>
       <title>チェック・ポイント・リサーチ、Kling AIなどの生成AIサービスを悪用したサイバー犯罪の新たな手口について警鐘 - ASCII.jp</title>
-      <link>http://localhost:1313/news/security-news/security-news_20250529155747/</link>
+      <link>https://www.wiser-blog.com/news/security-news/security-news_20250529155747/</link>
       <pubDate>Thu, 29 May 2025 15:57:47 +0900</pubDate>
-      <guid>http://localhost:1313/news/security-news/security-news_20250529155747/</guid>
+      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250529155747/</guid>
       <description></description>
     </item>
   </channel>
