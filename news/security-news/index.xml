@@ -6,8 +6,15 @@
     <description>Recent content in Security News on Tech Blog : WISER</description>
     <generator>Hugo</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Tue, 10 Jun 2025 09:15:07 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 10 Jun 2025 09:30:16 +0900</lastBuildDate>
     <atom:link href="https://www.wiser-blog.com/news/security-news/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Librarian Ghouls APT、AnyDeskやXMRigを悪用してロシア企業を標的とした新たなサイバー攻撃を展開 – 正規ソフト悪用の巧妙な手口を解析 - innovaTopia</title>
+      <link>https://www.wiser-blog.com/news/security-news/security-news_20250610093016/</link>
+      <pubDate>Tue, 10 Jun 2025 09:30:16 +0900</pubDate>
+      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250610093016/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Nintendo Switch2 発売初日に早くも脆弱性が発見-完全なハッキングではないが、ROPで動作改変に成功 - 合同会社ロケットボーイズ</title>
       <link>https://www.wiser-blog.com/news/security-news/security-news_20250610091507/</link>
