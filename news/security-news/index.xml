@@ -6,8 +6,15 @@
     <description>Recent content in Security News on Tech Blog : WISER</description>
     <generator>Hugo</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Tue, 10 Jun 2025 11:00:07 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 10 Jun 2025 13:30:08 +0900</lastBuildDate>
     <atom:link href="https://www.wiser-blog.com/news/security-news/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Go言語、3件の脆弱性を修正-1.24.4および1.23.10にアップデートを|セキュリティニュース - 合同会社ロケットボーイズ</title>
+      <link>https://www.wiser-blog.com/news/security-news/security-news_20250610133008/</link>
+      <pubDate>Tue, 10 Jun 2025 13:30:08 +0900</pubDate>
+      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250610133008/</guid>
+      <description></description>
+    </item>
     <item>
       <title>『ランサムウェアを封じ込める秘策、見えない脅威を可視化するネットワーク防御の在り方』というテーマのウェビナーを開催 - 産経ニュース</title>
       <link>https://www.wiser-blog.com/news/security-news/security-news_20250610110007/</link>
