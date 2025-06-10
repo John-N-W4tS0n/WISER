@@ -6,8 +6,15 @@
     <description>Recent content in Security News on Tech Blog : WISER</description>
     <generator>Hugo</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Tue, 10 Jun 2025 22:30:01 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 11 Jun 2025 02:45:09 +0900</lastBuildDate>
     <atom:link href="https://www.wiser-blog.com/news/security-news/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CVE-2025-33053、ステルス・ファルコンとホルス：中東サイバースパイのサガ</title>
+      <link>https://www.wiser-blog.com/news/security-news/security-news_20250611024509/</link>
+      <pubDate>Wed, 11 Jun 2025 02:45:09 +0900</pubDate>
+      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250611024509/</guid>
+      <description></description>
+    </item>
     <item>
       <title>サイバー攻撃の危険にさらされる報道機関 - Vietnam.vn</title>
       <link>https://www.wiser-blog.com/news/security-news/security-news_20250610223001/</link>
