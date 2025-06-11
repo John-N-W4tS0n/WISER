@@ -6,8 +6,15 @@
     <description>Recent content in Security News on Tech Blog : WISER</description>
     <generator>Hugo</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Wed, 11 Jun 2025 14:15:18 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 11 Jun 2025 14:45:14 +0900</lastBuildDate>
     <atom:link href="https://www.wiser-blog.com/news/security-news/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>複数のHitachi Energy製品におけるセキュリティ関連の処理に対するレスポンスの違いに起因する情報漏えいの脆弱性</title>
+      <link>https://www.wiser-blog.com/news/security-news/security-news_20250611144514/</link>
+      <pubDate>Wed, 11 Jun 2025 14:45:14 +0900</pubDate>
+      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250611144514/</guid>
+      <description></description>
+    </item>
     <item>
       <title>サイバーセキュリティクラウド、サイバー攻撃に備えるための企業・家庭向け「サイバー防災セット」を公開 - EnterpriseZine</title>
       <link>https://www.wiser-blog.com/news/security-news/security-news_20250611141518/</link>
