@@ -6,8 +6,15 @@
     <description>Recent content in Security News on Tech Blog : WISER</description>
     <generator>Hugo</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Sun, 15 Jun 2025 06:45:06 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 16 Jun 2025 06:30:09 +0900</lastBuildDate>
     <atom:link href="https://www.wiser-blog.com/news/security-news/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MacOSハッキングその1：合法的なTelegram API経由でデータを盗む。簡単なC言語の例</title>
+      <link>https://www.wiser-blog.com/news/security-news/security-news_20250616063009/</link>
+      <pubDate>Mon, 16 Jun 2025 06:30:09 +0900</pubDate>
+      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250616063009/</guid>
+      <description></description>
+    </item>
     <item>
       <title>情報セキュリティ10大脅威に「地政学的リスクに起因するサイバー攻撃」 - ツギノジダイ</title>
       <link>https://www.wiser-blog.com/news/security-news/security-news_20250615064506/</link>
