@@ -6,8 +6,15 @@
     <description>Recent content in Security News on Tech Blog : WISER</description>
     <generator>Hugo</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Sat, 05 Jul 2025 20:11:19 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 06 Jul 2025 07:26:16 +0900</lastBuildDate>
     <atom:link href="https://www.wiser-blog.com/news/security-news/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MacOSハッキングその4：x86_64アセンブリ経由のrevシェル。簡単なNASMの例</title>
+      <link>https://www.wiser-blog.com/news/security-news/security-news_20250706072616/</link>
+      <pubDate>Sun, 06 Jul 2025 07:26:16 +0900</pubDate>
+      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250706072616/</guid>
+      <description></description>
+    </item>
     <item>
       <title>サイバー攻撃、32％が「経験あり」 中小も被害拡大 - 観光経済新聞</title>
       <link>https://www.wiser-blog.com/news/security-news/security-news_20250705201119/</link>
