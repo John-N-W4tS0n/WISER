@@ -6,8 +6,15 @@
     <description>Recent content in Security News on Tech Blog : WISER</description>
     <generator>Hugo</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Sat, 05 Jul 2025 12:41:22 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 05 Jul 2025 16:41:15 +0900</lastBuildDate>
     <atom:link href="https://www.wiser-blog.com/news/security-news/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>はるやまＨＤにサイバー攻撃 オンラインサービス停止 - 山陽新聞</title>
+      <link>https://www.wiser-blog.com/news/security-news/security-news_20250705164115/</link>
+      <pubDate>Sat, 05 Jul 2025 16:41:15 +0900</pubDate>
+      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250705164115/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Googleと提携してオープンソース暗号を強化：Mbed TLSセキュリティ監査</title>
       <link>https://www.wiser-blog.com/news/security-news/security-news_20250705124122/</link>
