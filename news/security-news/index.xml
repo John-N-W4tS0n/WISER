@@ -6,8 +6,15 @@
     <description>Recent content in Security News on Tech Blog : WISER</description>
     <generator>Hugo</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Tue, 15 Jul 2025 20:26:16 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 16 Jul 2025 06:11:14 +0900</lastBuildDate>
     <atom:link href="https://www.wiser-blog.com/news/security-news/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Varonisインシデントレスポンス：Boxでの個人識別情報 (PII) 漏洩を防止-執筆のコラム-第65回 - innovations-i.com</title>
+      <link>https://www.wiser-blog.com/news/security-news/security-news_20250716061114/</link>
+      <pubDate>Wed, 16 Jul 2025 06:11:14 +0900</pubDate>
+      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250716061114/</guid>
+      <description></description>
+    </item>
     <item>
       <title>証券口座の不正アクセス対策、パスキーなどの多要素認証を必須化へ - Impress Watch</title>
       <link>https://www.wiser-blog.com/news/security-news/security-news_20250715202616/</link>
