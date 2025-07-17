@@ -6,8 +6,15 @@
     <description>Recent content in Security News on Tech Blog : WISER</description>
     <generator>Hugo</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Thu, 17 Jul 2025 15:11:13 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 17 Jul 2025 15:41:18 +0900</lastBuildDate>
     <atom:link href="https://www.wiser-blog.com/news/security-news/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>警察庁、ランサムウェア「Phobos/8Base」で暗号化されたファイルの復号ツール公開、サイトからダウンロード可能 - INTERNET Watch</title>
+      <link>https://www.wiser-blog.com/news/security-news/security-news_20250717154118/</link>
+      <pubDate>Thu, 17 Jul 2025 15:41:18 +0900</pubDate>
+      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250717154118/</guid>
+      <description></description>
+    </item>
     <item>
       <title>MSPを狙う新たな脅威、アクロニスがSafePayランサムウェアの技術と拡散手法を解析 - ｄメニューニュース</title>
       <link>https://www.wiser-blog.com/news/security-news/security-news_20250717151113/</link>
