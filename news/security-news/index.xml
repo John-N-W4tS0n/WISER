@@ -6,8 +6,15 @@
     <description>Recent content in Security News on Tech Blog : WISER</description>
     <generator>Hugo</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Wed, 23 Jul 2025 07:11:22 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 23 Jul 2025 08:11:37 +0900</lastBuildDate>
     <atom:link href="https://www.wiser-blog.com/news/security-news/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>学園関係者の認証情報が暗号化 ～ 東海大学へのランサムウェア攻撃 - ScanNetSecurity</title>
+      <link>https://www.wiser-blog.com/news/security-news/security-news_20250723081137/</link>
+      <pubDate>Wed, 23 Jul 2025 08:11:37 +0900</pubDate>
+      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250723081137/</guid>
+      <description></description>
+    </item>
     <item>
       <title>メール1通でデータが抜かれる？ M365 Copilotに潜む危険なセキュリティリスク - キーマンズネット</title>
       <link>https://www.wiser-blog.com/news/security-news/security-news_20250723071122/</link>
