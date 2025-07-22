@@ -6,8 +6,15 @@
     <description>Recent content in Security News on Tech Blog : WISER</description>
     <generator>Hugo</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Tue, 22 Jul 2025 15:11:13 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 22 Jul 2025 15:26:13 +0900</lastBuildDate>
     <atom:link href="https://www.wiser-blog.com/news/security-news/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>「Node.js」でセキュリティアップデートが実施、v24.4.1、v22.17.1、v20.19.4が公開／2件の脆弱性に対処 - 窓の杜</title>
+      <link>https://www.wiser-blog.com/news/security-news/security-news_20250722152613/</link>
+      <pubDate>Tue, 22 Jul 2025 15:26:13 +0900</pubDate>
+      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250722152613/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Microsoft Teamsを悪用したMatanbuchus 3.0マルウェアとサイバー攻撃の脅威とその実態 - 合同会社ロケットボーイズ</title>
       <link>https://www.wiser-blog.com/news/security-news/security-news_20250722151113/</link>
