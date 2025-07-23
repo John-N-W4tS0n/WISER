@@ -6,8 +6,15 @@
     <description>Recent content in Security News on Tech Blog : WISER</description>
     <generator>Hugo</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Wed, 23 Jul 2025 10:11:18 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 23 Jul 2025 10:56:12 +0900</lastBuildDate>
     <atom:link href="https://www.wiser-blog.com/news/security-news/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>「Google Chrome」のスクリプトエンジン「V8」に脆弱性、セキュリティ更新がリリース - 窓の杜</title>
+      <link>https://www.wiser-blog.com/news/security-news/security-news_20250723105612/</link>
+      <pubDate>Wed, 23 Jul 2025 10:56:12 +0900</pubDate>
+      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250723105612/</guid>
+      <description></description>
+    </item>
     <item>
       <title>トーモク、5月のランサムウェアによるサイバー攻撃と不正アクセスで情報漏洩の可能性 - 合同会社ロケットボーイズ</title>
       <link>https://www.wiser-blog.com/news/security-news/security-news_20250723101118/</link>
