@@ -6,8 +6,15 @@
     <description>Recent content in Security News on Tech Blog : WISER</description>
     <generator>Hugo</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Wed, 23 Jul 2025 12:26:16 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 23 Jul 2025 13:11:16 +0900</lastBuildDate>
     <atom:link href="https://www.wiser-blog.com/news/security-news/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Microsoft SharePointの深刻な脆弱性に対する攻撃が活発化 PoCも公開(CVE-2025-53770,CVE-2025-53771,CVE-2025-49704,CVE-2025-49706)|セキュリティとITのニュース-セキュリティ対策Lab - 合同会社ロケットボーイズ</title>
+      <link>https://www.wiser-blog.com/news/security-news/security-news_20250723131116/</link>
+      <pubDate>Wed, 23 Jul 2025 13:11:16 +0900</pubDate>
+      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250723131116/</guid>
+      <description></description>
+    </item>
     <item>
       <title>【無料セミナー】ランサムウェア被害企業の社長が赤裸々に明かす 物流会社を襲ったサイバー攻撃の真実と情報リスク対策の核心 - 愛媛新聞</title>
       <link>https://www.wiser-blog.com/news/security-news/security-news_20250723122616/</link>
