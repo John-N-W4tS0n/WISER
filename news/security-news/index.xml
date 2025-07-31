@@ -6,8 +6,15 @@
     <description>Recent content in Security News on Tech Blog : WISER</description>
     <generator>Hugo</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Thu, 31 Jul 2025 21:41:14 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 01 Aug 2025 03:41:11 +0900</lastBuildDate>
     <atom:link href="https://www.wiser-blog.com/news/security-news/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ToolShellの前に：Storm-2603の過去のランサムウェア作戦を探る</title>
+      <link>https://www.wiser-blog.com/news/security-news/security-news_20250801034111/</link>
+      <pubDate>Fri, 01 Aug 2025 03:41:11 +0900</pubDate>
+      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250801034111/</guid>
+      <description></description>
+    </item>
     <item>
       <title>ランサムウェアの現状 - 2025年第2四半期</title>
       <link>https://www.wiser-blog.com/news/security-news/security-news_20250731214114/</link>
