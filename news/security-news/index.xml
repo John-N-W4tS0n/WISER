@@ -6,8 +6,15 @@
     <description>Recent content in Security News on Tech Blog : WISER</description>
     <generator>Hugo</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Wed, 06 Aug 2025 15:56:44 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 06 Aug 2025 17:11:19 +0900</lastBuildDate>
     <atom:link href="https://www.wiser-blog.com/news/security-news/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SonicWall Gen 7ファイアウォールの脆弱性とAkiraランサムウェア攻撃最新動向 - innovaTopia</title>
+      <link>https://www.wiser-blog.com/news/security-news/security-news_20250806171119/</link>
+      <pubDate>Wed, 06 Aug 2025 17:11:19 +0900</pubDate>
+      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250806171119/</guid>
+      <description></description>
+    </item>
     <item>
       <title>韓国での攻撃でMakopランサムウェアが確認される</title>
       <link>https://www.wiser-blog.com/news/security-news/security-news_20250806155644/</link>
