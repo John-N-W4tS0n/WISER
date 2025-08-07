@@ -6,8 +6,15 @@
     <description>Recent content in Security News on Tech Blog : WISER</description>
     <generator>Hugo</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Thu, 07 Aug 2025 14:11:19 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 07 Aug 2025 17:11:22 +0900</lastBuildDate>
     <atom:link href="https://www.wiser-blog.com/news/security-news/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>デジタル・フォレンジックとインシデント・レスポンス（DFIR）とは？</title>
+      <link>https://www.wiser-blog.com/news/security-news/security-news_20250807171122/</link>
+      <pubDate>Thu, 07 Aug 2025 17:11:22 +0900</pubDate>
+      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250807171122/</guid>
+      <description></description>
+    </item>
     <item>
       <title>ScarCruftの新しい言語：PubNubでささやく、Rustでバックドアを作る、ランサムウェアで攻撃する</title>
       <link>https://www.wiser-blog.com/news/security-news/security-news_20250807141119/</link>
