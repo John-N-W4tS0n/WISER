@@ -6,8 +6,15 @@
     <description>Recent content in Security News on Tech Blog : WISER</description>
     <generator>Hugo</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Sat, 09 Aug 2025 00:11:14 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 09 Aug 2025 01:26:21 +0900</lastBuildDate>
     <atom:link href="https://www.wiser-blog.com/news/security-news/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ホビー中心のECサイト「駿河屋」、クレカ番号／セキュリティコードを含む深刻な情報漏洩の可能性 - weekly.ascii.jp</title>
+      <link>https://www.wiser-blog.com/news/security-news/security-news_20250809012621/</link>
+      <pubDate>Sat, 09 Aug 2025 01:26:21 +0900</pubDate>
+      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250809012621/</guid>
+      <description></description>
+    </item>
     <item>
       <title>駿河屋.JPへの第三者による不正アクセスで個人情報漏えいが発生。クレジットカード情報も漏えいした可能性あり - ファミ通</title>
       <link>https://www.wiser-blog.com/news/security-news/security-news_20250809001114/</link>
