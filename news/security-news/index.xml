@@ -6,8 +6,15 @@
     <description>Recent content in Security News on Tech Blog : WISER</description>
     <generator>Hugo</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Tue, 12 Aug 2025 18:56:14 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 13 Aug 2025 08:11:11 +0900</lastBuildDate>
     <atom:link href="https://www.wiser-blog.com/news/security-news/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>トレンドマイクロ Apex Oneで複数の脆弱性-サイバー攻撃への悪用を確認(CVE-2025-54948,CVE-2025-54987) - 合同会社ロケットボーイズ</title>
+      <link>https://www.wiser-blog.com/news/security-news/security-news_20250813081111/</link>
+      <pubDate>Wed, 13 Aug 2025 08:11:11 +0900</pubDate>
+      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250813081111/</guid>
+      <description></description>
+    </item>
     <item>
       <title>サンリオ、ネットサービス再開＝1月発生の不正アクセスで停止(時事通信) - Yahoo!ファイナンス</title>
       <link>https://www.wiser-blog.com/news/security-news/security-news_20250812185614/</link>
