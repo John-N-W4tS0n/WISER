@@ -109,12 +109,35 @@ Cloudflare Zero Trust は、エンタープライズ アプリケーション、
                 
                 
                     
-                        
-                        <li class="">
-                            <a class="sidebar-root-link" href="https://www.wiser-blog.com/docs/security/">
-                                
+                    
+                        <li class="sidebar-dropdown no-icon ">
+                            <button class="btn">
                                 Security
-                            </a>
+                            </button>
+                            <div class="sidebar-submenu ">
+                                <ul>
+                                    
+                                        
+                                        
+                                            <li class="sidebar-dropdown nested no-icon ">
+                                                <button class="btn">
+                                                    Digital Forensics
+                                                </button>
+                                                <div class="sidebar-submenu ">
+                                                    <ul>
+                                                        
+                                                            
+                                                            
+                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="https://www.wiser-blog.com/docs/security/digital-forensics/intro/">デジタル・フォレンジック概論</a></li>
+                                                            
+                                                        
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                        
+                                    
+                                </ul>
+                            </div>
                         </li>
                     
                 
@@ -1098,6 +1121,20 @@ WARPクライアントに指定しているプロファイルによっては、�
     
     
     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 
 
     
@@ -1197,6 +1234,24 @@ WARPクライアントに指定しているプロファイルによっては、�
     index.add(
             {
                 id:  10 ,
+                href: "\/docs\/security\/digital-forensics\/",
+                title: "Digital Forensics",
+                description: "デジタル・フォレンジックに関するメモ書きです。",
+                content: ""
+            }
+        );
+    index.add(
+            {
+                id:  11 ,
+                href: "\/docs\/security\/digital-forensics\/intro\/",
+                title: "デジタル・フォレンジック概論",
+                description: "\n概要 linkデジタル・フォレンジック（以降、”フォレンジック”と記載）とは、「特定非営利活動法人 デジタル・フォレンジック研究会」によって以下のように定められている。\nインシデントレスポンスや法的紛争・訴訟に際し、電磁的記録の証拠保全及び調査・分析を行うとともに、電磁的記録の改ざん・毀損等についての分析・情報収集等を行う一連の科学的調査手法・技術を言います。\n※インシデントレスポンス＝コンピュータやネットワーク等の資源及び環境の不正使用、サービス妨害行為、データの破壊、意図しない情報の開示等、並びにそれらへ至るための行為（事象）等への対応等を言う。\n基本概念 linkよくある用語は以下。\n用語 説明 Electronic Evidence 電子証拠 Preservation of Evidence デジタル証拠の完全性/真正性を確保すること また、フォレンジックのプロセスは一般的に以下のようなプロセスで進められる。\n# フェーズ 説明 1 Identification 証拠の情報源を決定する 2 Collection データ収集 3 Examination 収取したデータを分析、関連情報を得る 4 Analysis データを解釈して、インシデントに関する結論を導き出す 5 Presentation 調査結果を明確に提示する フォレンジック対応が必要となるケースは、主には以下のようなものがある。\n・犯罪調査 ・知的財産の窃盗 ・従業員の不正行為 ・組織に影響を与えるデータ侵害とインシデント ・法的手続きにおける訴訟支援（法廷での証拠となる） 進め方例 link # フェーズ 1 フォレンジック用のイメージを作成する 2 システムの状態を文書化する 3 証拠の特定と保全 4 証拠の解析 5 タイムラインの作成 6 IoCの特定 7 レポートと文書化 参考・引用 link https://digitalforensic.jp/home/what-df/ ",
+                content: "\n概要 linkデジタル・フォレンジック（以降、”フォレンジック”と記載）とは、「特定非営利活動法人 デジタル・フォレンジック研究会」によって以下のように定められている。\nインシデントレスポンスや法的紛争・訴訟に際し、電磁的記録の証拠保全及び調査・分析を行うとともに、電磁的記録の改ざん・毀損等についての分析・情報収集等を行う一連の科学的調査手法・技術を言います。\n※インシデントレスポンス＝コンピュータやネットワーク等の資源及び環境の不正使用、サービス妨害行為、データの破壊、意図しない情報の開示等、並びにそれらへ至るための行為（事象）等への対応等を言う。\n基本概念 linkよくある用語は以下。\n用語 説明 Electronic Evidence 電子証拠 Preservation of Evidence デジタル証拠の完全性/真正性を確保すること また、フォレンジックのプロセスは一般的に以下のようなプロセスで進められる。\n# フェーズ 説明 1 Identification 証拠の情報源を決定する 2 Collection データ収集 3 Examination 収取したデータを分析、関連情報を得る 4 Analysis データを解釈して、インシデントに関する結論を導き出す 5 Presentation 調査結果を明確に提示する フォレンジック対応が必要となるケースは、主には以下のようなものがある。\n・犯罪調査 ・知的財産の窃盗 ・従業員の不正行為 ・組織に影響を与えるデータ侵害とインシデント ・法的手続きにおける訴訟支援（法廷での証拠となる） 進め方例 link # フェーズ 1 フォレンジック用のイメージを作成する 2 システムの状態を文書化する 3 証拠の特定と保全 4 証拠の解析 5 タイムラインの作成 6 IoCの特定 7 レポートと文書化 参考・引用 link https://digitalforensic.jp/home/what-df/ "
+            }
+        );
+    index.add(
+            {
+                id:  12 ,
                 href: "\/docs\/poc\/cloudflare\/",
                 title: "Cloudflare",
                 description: "",
@@ -1205,7 +1260,7 @@ WARPクライアントに指定しているプロファイルによっては、�
         );
     index.add(
             {
-                id:  11 ,
+                id:  13 ,
                 href: "\/docs\/poc\/opencti\/",
                 title: "OpenCTI",
                 description: "",
