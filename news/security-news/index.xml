@@ -6,8 +6,15 @@
     <description>Recent content in Security News on Tech Blog : WISER</description>
     <generator>Hugo</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Mon, 18 Aug 2025 19:41:25 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 18 Aug 2025 22:41:19 +0900</lastBuildDate>
     <atom:link href="https://www.wiser-blog.com/news/security-news/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Veletrixローダー感染：デジタル・フォレンジックの観点から見る</title>
+      <link>https://www.wiser-blog.com/news/security-news/security-news_20250818224119/</link>
+      <pubDate>Mon, 18 Aug 2025 22:41:19 +0900</pubDate>
+      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250818224119/</guid>
+      <description></description>
+    </item>
     <item>
       <title>「バイブ・ハッキング」：カーソルとVSコードのリモート開発における開発者の信頼の悪用</title>
       <link>https://www.wiser-blog.com/news/security-news/security-news_20250818194125/</link>
