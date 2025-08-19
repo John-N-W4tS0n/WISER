@@ -6,8 +6,15 @@
     <description>Recent content in Security News on Tech Blog : WISER</description>
     <generator>Hugo</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Wed, 20 Aug 2025 05:11:14 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 20 Aug 2025 08:11:13 +0900</lastBuildDate>
     <atom:link href="https://www.wiser-blog.com/news/security-news/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>リモートアクセス機器経由での侵入が判明 ～ サンリオエンターテイメントへのランサムウェア攻撃 - ScanNetSecurity</title>
+      <link>https://www.wiser-blog.com/news/security-news/security-news_20250820081113/</link>
+      <pubDate>Wed, 20 Aug 2025 08:11:13 +0900</pubDate>
+      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250820081113/</guid>
+      <description></description>
+    </item>
     <item>
       <title>サイバー攻撃のリスク軽減 新興のルーンテイル、「VPN」使わず暗号化 - 日本経済新聞</title>
       <link>https://www.wiser-blog.com/news/security-news/security-news_20250820051114/</link>
