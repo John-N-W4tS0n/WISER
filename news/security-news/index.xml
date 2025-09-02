@@ -6,8 +6,15 @@
     <description>Recent content in Security News on Tech Blog : WISER</description>
     <generator>Hugo</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Tue, 02 Sep 2025 19:10:44 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 02 Sep 2025 20:41:02 +0900</lastBuildDate>
     <atom:link href="https://www.wiser-blog.com/news/security-news/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MacOSハッキングその11：ARM(M1)用バインドシェル。シンプルなアセンブリ（M1）の例</title>
+      <link>https://www.wiser-blog.com/news/security-news/security-news_20250902204102/</link>
+      <pubDate>Tue, 02 Sep 2025 20:41:02 +0900</pubDate>
+      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250902204102/</guid>
+      <description></description>
+    </item>
     <item>
       <title>WhatsAppは新しいハッキングキャンペーンを発見し、世界中の200人をターゲットにしています - VOI.ID</title>
       <link>https://www.wiser-blog.com/news/security-news/security-news_20250902191044/</link>
