@@ -6,8 +6,15 @@
     <description>Recent content in Security News on Tech Blog : WISER</description>
     <generator>Hugo</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Tue, 02 Sep 2025 20:41:02 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 03 Sep 2025 00:10:46 +0900</lastBuildDate>
     <atom:link href="https://www.wiser-blog.com/news/security-news/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>クレカ大手ロッテカード、ハッキング攻撃 - nna.jp</title>
+      <link>https://www.wiser-blog.com/news/security-news/security-news_20250903001046/</link>
+      <pubDate>Wed, 03 Sep 2025 00:10:46 +0900</pubDate>
+      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250903001046/</guid>
+      <description></description>
+    </item>
     <item>
       <title>MacOSハッキングその11：ARM(M1)用バインドシェル。シンプルなアセンブリ（M1）の例</title>
       <link>https://www.wiser-blog.com/news/security-news/security-news_20250902204102/</link>
