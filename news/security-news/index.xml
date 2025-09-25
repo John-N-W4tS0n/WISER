@@ -6,8 +6,15 @@
     <description>Recent content in Security News on Tech Blog : WISER</description>
     <generator>Hugo</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Fri, 26 Sep 2025 06:17:21 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 26 Sep 2025 08:17:25 +0900</lastBuildDate>
     <atom:link href="https://www.wiser-blog.com/news/security-news/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>フィッシングサイト誘導メッセージ送信を確認 ～ 呉竹荘が運営するホテルの宿泊予約情報管理システムに不正アクセス - ScanNetSecurity</title>
+      <link>https://www.wiser-blog.com/news/security-news/security-news_20250926081725/</link>
+      <pubDate>Fri, 26 Sep 2025 08:17:25 +0900</pubDate>
+      <guid>https://www.wiser-blog.com/news/security-news/security-news_20250926081725/</guid>
+      <description></description>
+    </item>
     <item>
       <title>「ランサム侵入原因」34％が“認証情報の悪用”、流行中「インフォスティーラー」を感染させる新たな手口「FileFix」とは？今すぐできる4つの対策（東洋経済オンライン） - Yahoo!ニュース</title>
       <link>https://www.wiser-blog.com/news/security-news/security-news_20250926061721/</link>
