@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cloudflare on Tech-Blog</title>
-    <link>http://localhost:1313/docs/poc/cloudflare/</link>
+    <link>https://www.wiser-blog.com/docs/poc/cloudflare/</link>
     <description>Recent content in Cloudflare on Tech-Blog</description>
     <generator>Hugo</generator>
     <language>ja-jp</language>
     <lastBuildDate>Thu, 05 Jun 2025 02:02:14 +0900</lastBuildDate>
-    <atom:link href="http://localhost:1313/docs/poc/cloudflare/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.wiser-blog.com/docs/poc/cloudflare/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cloudflare Zero Trust 実装</title>
-      <link>http://localhost:1313/docs/poc/cloudflare/cf-zerotrust/</link>
+      <link>https://www.wiser-blog.com/docs/poc/cloudflare/cf-zerotrust/</link>
       <pubDate>Thu, 05 Jun 2025 02:02:14 +0900</pubDate>
-      <guid>http://localhost:1313/docs/poc/cloudflare/cf-zerotrust/</guid>
+      <guid>https://www.wiser-blog.com/docs/poc/cloudflare/cf-zerotrust/</guid>
       <description>&lt;br&gt;&#xA;&lt;h2 id=&#34;実施したいこと&#34;&gt;実施したいこと &lt;a href=&#34;#%e5%ae%9f%e6%96%bd%e3%81%97%e3%81%9f%e3%81%84%e3%81%93%e3%81%a8&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;&lt;i class=&#34;material-icons align-middle&#34;&gt;link&lt;/i&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;１．インターネットアクセスのセキュリティ強化および可視化（SWG）&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;２．ローカルサーバへのVPNアクセス（SDP）&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;背景&#34;&gt;背景 &lt;a href=&#34;#%e8%83%8c%e6%99%af&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;&lt;i class=&#34;material-icons align-middle&#34;&gt;link&lt;/i&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;ニュースで「&lt;strong&gt;Cloudflare One&lt;/strong&gt;」が無償化？（うろ覚えだが）と見たため。&lt;/p&gt;&#xA;&lt;h2 id=&#34;cloudflare-zero-trust-とは&#34;&gt;Cloudflare Zero Trust とは &lt;a href=&#34;#cloudflare-zero-trust-%e3%81%a8%e3%81%af&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;&lt;i class=&#34;material-icons align-middle&#34;&gt;link&lt;/i&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Cloudflare Zero Trustの&lt;a href=&#34;https://developers.cloudflare.com/cloudflare-one/&#34; rel=&#34;external&#34; target=&#34;_blank&#34;&gt;公式docs&lt;svg width=&#34;16&#34; height=&#34;16&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path fill=&#34;currentColor&#34; d=&#34;M14 5c-.552 0-1-.448-1-1s.448-1 1-1h6c.552 0 1 .448 1 1v6c0 .552-.448 1-1 1s-1-.448-1-1v-3.586l-7.293 7.293c-.391.39-1.024.39-1.414 0-.391-.391-.391-1.024 0-1.414l7.293-7.293h-3.586zm-9 2c-.552 0-1 .448-1 1v11c0 .552.448 1 1 1h11c.552 0 1-.448 1-1v-4.563c0-.552.448-1 1-1s1 .448 1 1v4.563c0 1.657-1.343 3-3 3h-11c-1.657 0-3-1.343-3-3v-11c0-1.657 1.343-3 3-3h4.563c.552 0 1 .448 1 1s-.448 1-1 1h-4.563z&#34;/&gt;&lt;/svg&gt;&lt;/a&gt;上で、以下記載がある。&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Cloudflare Zero Trust は、エンタープライズ アプリケーション、ユーザー、デバイス、ネットワークを保護する Secure Access Service Edge (SASE) プラットフォームの名称である Cloudflare One の一部です。&lt;/p&gt;</description>
     </item>
   </channel>
